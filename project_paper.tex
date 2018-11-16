@@ -6,12 +6,14 @@
 \begin{enumerate}
 \item Lifting capacity: 15 metric tons, 15000kg, 33000 lbm, 147 kN
 \end{enumerate}
-\section{Validation}
-The validation load was chosen in accordance with ASME BTH-1, for a class C lifting beam. this dictates a factor of safety for the beam to be no more than 20\% of the minimum ultimate tensile strength of the material. 
+\section{Validation Load}
+The selected validation load was chosen based on the targeted lifting capacity of the beam, which is 147 kN. This is the validation load that was chosen. 
+\section{Validation Criteria}
+The validation stress was chosen such that the overall system safety factor is in accordance with ASME BTH-1, for a Design Category B lifting beam. This dictates a factor of safety for the beam to be no more than 33\% of the minimum yield stress of the material. In this case, we are assuming the use of ASTM A-572 Grade 42 Steel with a yield point of 289 MPa. 
 In this case, this equates to:
 \begin{align*}
-	\sigma_{\mathit{allow}} &= 0.2 \cdot S_{ut}\\
-	\sigma_{allow} &= 0.2 \cdot 400  \text{ MPa} \\
-	\sigma_{allow} &= 80.0 \text{ MPa}
+	\sigma_{\mathit{allow}} &= 0.33 \cdot S_{y}\\
+	\sigma_{allow} &= 0.33 \cdot 289  \text{ MPa} \\
+	\sigma_{allow} &= 95.3 \text{ MPa}
 \end{align*}
 \end{document}
