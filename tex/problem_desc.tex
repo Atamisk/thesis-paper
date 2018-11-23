@@ -1,11 +1,17 @@
-\section{Problem Description}
-\subsection{Performance requirements}
+\chapter{Problem Description}
+This particular study seeks to formulate a method to design an equalizer beam using multi-objective optimization. It further seeks to evaluate the performance of the formulated method based on a design based upon standards currently common in the industry.
+\todo{Comparing against a traditionally developed beam is a new idea. Is this something that seems appropriate?}
+To this end, an example system will be used as a subject for the design. The basic requirement parameters will remain the same throughout both solution methods to ensure a consistent comparison between the 2 methods. The basic parameters for the solution are presented below. 
+
+\section{Performance requirements}
+In this case, performance requirements primarily relate to the lifting capacity and the allowable side pull on the beam. The requirements selected for this problem are: 
 \begin{enumerate}
-\item Lifting capacity: 15 metric tons, 15000kg, 33000 lbm, 147 kN
+\item Lifting capacity: 15 metric tons, 15000kg, 33000 lbm, 147 kN. For this problem, 150 kN was used. 
+\item Minimum capable side load: $\pm 5^{\circ} $
 \end{enumerate}
-\subsection{Validation Load}
+\section{Validation Load}
 The selected validation load was chosen based on the targeted lifting capacity of the beam, which is 147 kN. This is the validation load that was chosen. 
-\subsection{Validation Criteria}
+\section{Validation Criteria}
 The validation stress was chosen such that the overall system safety factor is in accordance with ASME BTH-1, for a Design Category B lifting beam. This dictates a factor of safety for the beam to be no more than 33\% of the minimum yield stress of the material. In this case, we are assuming the use of ASTM A-572 Grade 42 Steel with a yield point of 289 MPa. 
 In this case, this equates to:
 \begin{align*}
