@@ -1,4 +1,9 @@
 \chapter{Methods}
+\section{Modeling the base beam}
+For both solution methods, a common basic design of the beam to be studied was constructed. For this study, a basic design using two ``C"-style sections to form the two main moment-bearing sections was selected. This style was selected because the cross section lends itself to paramater-based optimization, whereas more complex designs such as box beam spreaders are more well suited to full geometry optimization. \todo{Do i need to discuss geometry vs. parameter optimization?} Figure \todo{Add Figure} shows the basic design selected for this study. Dimensions presented in this figure remain constant. 
+
+This basic design was modeled in Siemens's Finite Element Preprocessor, FEMAP. The modeled area takes advantage of the two-plane symmetry in the beam to only model one quarter of the beam. It is worth noting that the loading on the beam is afected by the symmetry, and the loads presented for analysis are one fourth of the actual beam loadings. 
+
 \section{Solution Method - Stochastic Process}
 \subsection{Identify Load Cases}
 In order to find load cases for use, a Latin Hypercube Sampling algorithm is used to select 1000 independent loading conditions within the set of possible load conditions, which is assumed to be a set of normally distributed sample spaces. In this case, the most conservative loadings are those significantly above the mean for the magnitude of the applied force. In order to ensure reliability, the set of load cases to be analyzed is restricted to those load cases more than 1.96 standard deviations above the mean value of the applied load. This ensures that all of the load cases considered are in the top 2.5\% of the sample space. This will result in a set of approximately 25 load cases to consider. \todo{May need to describe this with more mathematical vigor}

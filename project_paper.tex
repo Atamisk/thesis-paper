@@ -1,7 +1,15 @@
 \documentclass{report}
 \usepackage{amsmath}
 \usepackage{todonotes}
-
+\usepackage{fancyhdr}
+ 
+\fancypagestyle{plain}{
+\fancyhf{}
+\fancyhead[LE,LO]{DRAFT}
+\fancyfoot[LE,LO]{DRAFT}
+\fancyfoot[RE,RO]{Page \thepage}
+}
+\pagestyle{plain}
 \begin{document}
 \input{tex/title.tex}
 \input{tex/intro.tex}
