@@ -1,8 +1,8 @@
 \section{Solution Method - Stochastic Process}
 \subsection{Identify Load Cases}
-In order to find load cases for use, a Latin Hypercube Sampling algorithm is used to select 1000 independent loading conditions within the set of possible load conditions, which is assumed to be a set of normally distributed sample spaces. In this case, the most conservative loadings are those significantly above the mean for the magnitude of the applied force. In order to ensure reliability, the set of load cases to be analyzed is restricted to those load cases more than 1.96 standard deviations above the mean value of the applied load. This ensures that all of the load cases considered are in the top 2.5\% of the sample space. This will result in a set of approximately 25 load cases to consider. 
+In order to find load cases for use, a Latin Hypercube Sampling algorithm is used to select 1000 independent loading conditions within the set of possible load conditions, which is assumed to be a set of normally distributed sample spaces. In this case, the most conservative loadings are those significantly above the mean for the magnitude of the applied force. In order to ensure reliability, the set of load cases to be analyzed is restricted to those load cases more than 1.96 standard deviations above the mean value of the applied load. This ensures that all of the load cases considered are in the top 2.5\% of the sample space. This will result in a set of approximately 25 load cases to consider. \todo{May need to describe this with more mathematical vigor}
 \subsection{Analyze load Cases} 
-For each load case selected, a set of 50 randomly selected candidate designs are generated. These designs are analyzed using Finite Element Analysis to find the maximum stress and design weight. These values are used as fitness functions to rank the designs. This process is repeated using a Multi Objective Differential Evolution algorithm to selectively refine the designs for a set number of generations. 
+For each load case selected, a set of 50 randomly selected candidate designs are generated. These designs are analyzed using Finite Element Analysis to find the maximum stress and design weight. These values are used as fitness functions to rank the designs. This process is repeated using a Multi Objective Differential Evolution algorithm to selectively refine the designs for a set number of generations. \todo{Section needs expanding}
 \subsubsection{Constraints}
 During the MODE optimization process, 2 constraints are applied. One requires the mass of the beam to remain under 1 metric ton (1000kg). In order to accomplish this, a fitness penalty method is used which triggers if the inequality:
 $$
@@ -14,7 +14,7 @@ The second constraint represents its factor of reliability against yielding. Thi
 \begin{equation}\label{eq_beta_01}
 \beta = \frac{\mu_{\sigma y} - \mu_{\sigma max}}{\sqrt{\sigma_{\sigma y}^2 + \sigma_{\sigma max}^2}}
 \end{equation}
-Note that at this point in the solution, variability in the force input has been modelled through Constrained Hypercube Sampling, and that these equations are being applied to such samples. Thus, these samples are the analogue of actual discrete measures of force and stress, and the ``measured stress" standard deviation can be assumed to be negligibly small compared to the standard deviation of the yield stress. Therefore, $\sigma_{\sigma max}$ can be assumed to be zero. This causes equation \ref{eq_beta_01} to reduce to: 
+Note that at this point in the solution, variability in the force input has been modelled through Hypercube Sampling of the entire variable space, and that these equations are being applied to such samples. Thus, these samples are the analogue of actual discrete measures of force and stress, and the ``measured stress" standard deviation can be assumed to be negligibly small compared to the standard deviation of the yield stress. Therefore, $\sigma_{\sigma max}$ can be assumed to be zero. This causes equation \ref{eq_beta_01} to reduce to: 
 \begin{equation}
 \beta = \frac{\mu_{\sigma y} - \mu_{\sigma max}}{\sigma_{\sigma y}}
 \end{equation}
@@ -22,3 +22,8 @@ In order to use this as a constraint, the following inequality is employed.
 \begin{equation}
 \beta = \frac{\mu_{\sigma y} - \mu_{\sigma max}}{\sigma_{\sigma y}} \geq 4
 \end{equation}
+
+The above 2 constraints are applied by generating a multiplier based on the degree to which the constraint has been violated. These multipliers are used to multiply the fitness results, ensuring the solutions that violate constraints are the least dominant and are therefore much less likely to be selected to move on to the next generation in favor of more dominant designs. 
+
+\subsection{Aggregation}
+At this point, the solution algorithm has 25 separate load cases with individual Pareto fronts. The designs that make up each Pareto front are added to a single unified set of designs. From there, they are once again ranked according to dominance and a ``final" Pareto front is generated. The designs that comprise this ``final" Pareto front are considered to be the most desirable designs and are presented to the designer. 
