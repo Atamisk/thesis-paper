@@ -7,8 +7,32 @@ When handling heavier components, the lifting capacity of a single crane may not
 
 Equalizer beams are typically single weldments with few, if any, moving parts. They are typically constructed from steel. The beam istypically built with 3 major attachment points. One for the load to be lifted, and 2 equidistant crane attachment points. The centers of the three attachment points are typically along the same axis to ensure equal load sharing between the two cranes, even in the event that the beam is out of level. See figure \todo{Add Figure} for a simple outline of a typical equalizer beam.
 
-\section{Current Design Methodology}
+\subsection{Current Design Methodology}
 
 Currently, the commonly accepted industry standard in use in the US is ASME BTH-1. This design standard lists recommended minimum design standards for these devices. This standard is widely accepted and is referenced in ASME's safety standard for below the hook devices, B30.20.
 
-When in use, the equalizer beam is part of the amount of weight each crane lifts. Therefore, the heavier the equalizer beam is, the less total weight the two-crane system can lift before their capacity limits are reached. This necessitates high performance, light weight products that can maximize performance of cranes used in these configurations.\todo{This paragraph may be misplaced}  
+When in use, the equalizer beam is part of the amount of weight each crane lifts. Therefore, the heavier the equalizer beam is, the less total weight the two-crane system can lift before their capacity limits are reached. This necessitates high performance, light weight products that can maximize performance of cranes used in these configurations.\todo{This paragraph may be misplaced} 
+
+\section{Optimization}
+Optimization is defined as the \todo{Insert Definition}. In the specific case of engineering design, one of several techniques is used to minimize an objective function, such as stress or weight. All of these techniques begin by randomly varying the independent variables of the function and making decisions based on the changes to the dependent variable. 
+
+\subsection{Differential Evolution}
+Differential evolution was selected as the optimizer for this study. Differential optimization works...\todo{Use textbook to describe and define DE optimization}
+
+\subsection{Extending DE to Multi-Objective}
+Differential Evolution Optimization is originally a single-objective method. However, it can easily be extended to multi-objective operation by changing the method by which fitness is evaluated. Instead of a single fitness function, multiple independent fitness functions are evaluated using the concept of Pareto dominance. 
+
+\subsection{Pareto Dominance}
+Pareto Dominance is a simple way to compare systems based on multiple different fitness criteria. Pareto dominance for a minimization problem can be described by the following formula: 
+
+Let the vector of fitness values for two arbitrary solutions be defined as:
+\begin{align*}
+C_a &= 4
+\end{align*}
+
+$$
+P_{a,b} = \begin{cases}
+          \hbox{True  when  } C_{a}^i < C_{b}^i \; \forall i \in \{1..n\}\\ 
+          \hbox{False otherwise}
+          \end{cases}
+$$
