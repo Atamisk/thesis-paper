@@ -4,6 +4,7 @@
 \usepackage{todonotes}
 \usepackage{fancyhdr}
 \usepackage{setspace}
+\usepackage{listings}
  
 \fancypagestyle{plain}{
 \fancyhf{}
@@ -11,6 +12,11 @@
 \fancyfoot[LE,LO]{DRAFT}
 \fancyfoot[RE,RO]{Page \thepage}
 }
+
+\newcommand{\codeword}[1]{%
+\texttt{\textcolor{blue}{#1}}%
+}
+
 \pagestyle{plain}
 \begin{document}
 \input{tex/title.tex}
@@ -18,6 +24,8 @@
 \input{tex/intro.tex}
 \input{tex/problem_desc.tex}
 \chapter{Solution Principals}
+\input{tex/fem.tex}
+\input{tex/optim.tex}
 \input{tex/tensor_calc.tex}
 \chapter{Tools and Software Used}
 \input{tex/tools.tex}
