@@ -1,21 +1,27 @@
 \section{Problem Description}
-This particular study seeks to formulate a method to design an equalizer beam using multi-objective optimization. It further seeks to evaluate the performance of the formulated method based on a design based upon standards currently common in the industry.
-\todo{Comparing against a traditionally developed beam is a new idea. Is this something that seems appropriate?}
-To this end, an example system will be used as a subject for the design. The basic requirement parameters will remain the same throughout both solution methods to ensure a consistent comparison between the 2 methods. The basic parameters for the solution are presented below. 
+This particular study seeks to formulate a method to design an equalizer beam using multi-objective optimization. To this end, an example system will be used as a subject for the design. The basic parameters for the solution are presented below. 
+
+\section{Example System}
+The example system to be studied is based on a few basic fixed design parameters. The basic outline of the beam structure is shown in Figure \ref{img:dim_beam}. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{img/dim_beam.png}
+	\label{img:dim_beam}
+	\caption{Fixed Dimensions for the Example System Beam}
+\end{figure}
+
+Also fixed is the material, which is assumed to be ASTM A36 steel. The material has properties assumed to be: 
+
+\begin{itemize}
+\item Yield Strength: Mean 250MPa, Std. Deviation 32.5 MPa
+\item Young's Modulus: 200 GPa
+\end{itemize}
 
 \subsection{Performance requirements}
 In this case, performance requirements primarily relate to the lifting capacity and the allowable side pull on the beam. The requirements selected for this problem are: 
 \begin{enumerate}
-\item Lifting capacity: 15 metric tons, 15000kg, 33000 lbm, 147 kN. For this problem, 150 kN was used. 
+\item Lifting capacity: 60 metric tons, 60,000kg, 132,000 lbm, 588 kN. For this problem, 600 kN was used. 
 \item Minimum capable side load: $\pm 5^{\circ} $
 \end{enumerate}
-\subsection{Validation Load}
-The selected validation load was chosen based on the targeted lifting capacity of the beam, which is 147 kN. This is the validation load that was chosen. 
-\subsection{Validation Criteria}
-The validation stress was chosen such that the overall system safety factor is in accordance with ASME BTH-1, for a Design Category B lifting beam. This dictates a factor of safety for the beam to be no more than 33\% of the minimum yield stress of the material. In this case, we are assuming the use of ASTM A-572 Grade 42 Steel with a yield point of 289 MPa. 
-In this case, this equates to:
-\begin{align*}
-	\sigma_{\mathit{allow}} &= 0.33 \cdot S_{y}\\
-	\sigma_{allow} &= 0.33 \cdot 289  \text{ MPa} \\
-	\sigma_{allow} &= 95.3 \text{ MPa}
-\end{align*}
+
+As will be discussed in detail later, the beam to be analyzed is symmetric on 2 planes. This allows for the model to consist of only one quarter of the beam under study. Additionally, It will be later clarified that the selected solution methods utilize stochastic methods to model the loading. 

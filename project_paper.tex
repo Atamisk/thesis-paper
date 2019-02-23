@@ -5,6 +5,7 @@
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage{listings}
+\usepackage{tocloft}
  
 \fancypagestyle{plain}{
 \fancyhf{}
@@ -16,10 +17,13 @@
 \newcommand{\codeword}[1]{%
 \texttt{\textcolor{blue}{#1}}%
 }
+\renewcommand{\listfigurename}{List of Figures}
 
 \pagestyle{plain}
 \begin{document}
 \input{tex/title.tex}
+\tableofcontents
+\listoffigures
 \chapter{Problem Description, Motivation, Objective and Expected Outcome}
 \input{tex/intro.tex}
 \input{tex/problem_desc.tex}
