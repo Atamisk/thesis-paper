@@ -6,6 +6,8 @@
 \usepackage{setspace}
 \usepackage{listings}
 \usepackage{tocloft}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber,style=numeric]{biblatex}
  
 \fancypagestyle{plain}{
 \fancyhf{}
@@ -18,18 +20,22 @@
 \texttt{\textcolor{blue}{#1}}%
 }
 \renewcommand{\listfigurename}{List of Figures}
+\setcounter{secnumdepth}{1}
+
+\addbibresource{tex/biblio.bib}
 
 \pagestyle{plain}
 \begin{document}
 \input{tex/title.tex}
 \tableofcontents
 \listoffigures
-\chapter{Problem Description, Motivation, Objective and Expected Outcome}
+\chapter{Motivation, Problem Description, Objective and Expected Outcome}
 \input{tex/intro.tex}
+\input{tex/objective.tex}
 \input{tex/problem_desc.tex}
 \chapter{Solution Principals}
-\input{tex/fem.tex}
 \input{tex/optim.tex}
+\input{tex/fem.tex}
 \input{tex/tensor_calc.tex}
 \chapter{Tools and Software Used}
 \input{tex/tools.tex}
@@ -37,5 +43,6 @@
 \input{tex/methods.tex}
 \chapter{Selected Results}
 \chapter{Concluding Remarks}
+\printbibliography[title={References},heading=bibnumbered]
 \chapter{Appendix A: Complete Code Listing}
 \end{document}
