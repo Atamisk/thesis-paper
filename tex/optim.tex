@@ -1,11 +1,26 @@
-\section{Optimization}
-Optimization is defined as ``a mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints."\cite{opt-def} In the specific case of engineering design, one of several techniques is used to minimize an objective function, such as stress or weight. All of these techniques begin by randomly varying the independent variables of the function and making decisions based on the changes to the dependent variable.
+\section{Numerical Optimization}
+Optimization is defined as ``a mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints."\cite{opt-def} In the specific case of engineering design, one of several techniques is used to find local or global extrema of a function of one or multiple variables. These techinques use various criteria to traverse the independent variables and detect these extrema. The method the optimizer uses to traverse the solution space has a significant impact on the speed at which the operation converges to a solution or solutions.\cite{basic-optim} \todo{Is this section complete enough?}
 
+\todo{Introduce the concept of the objective function}
 \subsection{Differential Evolution}
-Differential evolution was selected as the optimizer for this study. Differential optimization works...\todo{Use textbook to describe and define DE optimization}
+Differential evolution was selected as the optimizer for this study. 
+
+Differential Evolution is a member of optimizers collectively known as \emph{Evolutionary Algrorithms}. These optimizers use various approaches to emulate the concept of biological evolution to optimize a given objective function. Differential optimization performs this task through the use of a 4-phased approach: Initialization, Mutation, Crossover, and Selection. \cite{diff-evol}
+
+\subsubsection{Initialization}
+Prior to starting the optimization loop, an initial ``population" of individuals has to be generated for the optimizer to work from. An individual consists of a vector $\vec{x}$ of values of the objective function's independent variables. The Initialization process generates a vector $\vec{X} = \left\{\vec{x}_1, \vec{x}_2 \cdots \vec{x}_n\right\}$ of individuals by randomly selecting values for the independent variables. This vector represents the complete population that will be operated on in the first generation of the optimization loop.\cite{diff-evol} 
+
+In the case of the implementation presented here, Latin Hypercube Sampling (LHS) was employed to generate the random values to assemble $\vec{X}$. More detail on LHS can be found in section \ref{sec:lhs}. 
+
+\subsubsection{Mutation}
+\subsubsection{Crossover}
+\subsubsection{Selection}\todo{Flesh out these sections!}
+
 
 \subsection{Extending DE to Multi-Objective}
 Differential Evolution Optimization is originally a single-objective method. However, it can easily be extended to multi-objective operation by changing the method by which fitness is evaluated. Instead of a single fitness function, multiple independent fitness functions are evaluated using the concept of Pareto dominance. 
+
+\todo{Complete this section}
 
 \subsection{Pareto Dominance}
 Pareto Dominance is a simple way to compare systems based on multiple different fitness criteria. Pareto dominance for a minimization problem can be described by the following formula: 
@@ -21,3 +36,5 @@ P_{a,b} = \begin{cases}
           \hbox{False otherwise}
           \end{cases}
 $$
+
+\todo{Section incomplete}
