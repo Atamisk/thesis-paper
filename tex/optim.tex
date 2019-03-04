@@ -13,7 +13,24 @@ Prior to starting the optimization loop, an initial ``population" of individuals
 In the case of the implementation presented here, Latin Hypercube Sampling (LHS) was employed to generate the random values to assemble $\vec{X}$. More detail on LHS can be found in section \ref{sec:lhs}. 
 
 \subsubsection{Mutation}
+The mutation operator is the first step for each cycle of the optimization loop. This algorithm emulates random mutations in genetic code commonly found in nature. Taking each individual from the previous cycle (or the initial population if this is the first cycle), a mutated vector of properties is generated. These vectors are known as \emph{trial vectors}. To perform this action, the basic process flow shown below is employed\cite{diff-evol}:
+
+\
+\begin{lstlisting}[caption=Pseudocode for the Mutation Operator \cite{diff-evol},captionpos=b]
+output vector = empty_vector[num_individuals][num_design_vars]
+for integer j in [0 ... num_individuals]:
+    x_1 = individuals[j]
+    x_2 = random_member_of_individuals
+    x_3 = random_member_of_individuals
+    beta = x.x // (arbitrary amplification factor selected by user)
+    for integer i in [0 ... num_design_vars]:
+	    output_vector[j][i] = x_1[i] + beta * (x_2[i] - x_3[i])
+return output_vector
+\end{lstlisting}
+
 \subsubsection{Crossover}
+The crossover operator combines the parent vectors and trial vectors to make a single set of \emph{child vectors}. 
+
 \subsubsection{Selection}\todo{Flesh out these sections!}
 
 
