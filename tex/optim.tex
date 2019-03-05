@@ -36,7 +36,8 @@ The crossover operator combines the parent individuals and their associated tria
 \begin{lstlisting}[caption=Pseudocode for the Crossover Operator \cite{diff-evol},captionpos=b]
 child_vector = empty_2d_vector[num_individuals][num_design_vars]
 for integer j in [0 ... num_individuals]:
-    C = x.x //Constant that dictates how often the crossover picks from the trial vector. 
+    C = x.x // Constant that dictates how often the crossover picks from the
+            // trial vector. 
     for integer i in [0 ... num_design_vars]:
         rnd = make_random_number()
 	if rnd > C
