@@ -47,27 +47,62 @@ for integer j in [0 ... num_individuals]:
 return child_vector
 \end{lstlisting}
 
-\subsubsection{Selection}\todo{Flesh out these sections!}
+\subsubsection{Selection}
+The final major phase in the Differential Evolution loop is the Selection Operator. This operator takes the parent and child vectors and calculates the value of the objective function for each individual. The operator then compares each parent individual's fitness against the associated child individual. The one with a more desirable fitness value is retained and added to the \emph{output vector} while the other is discarded. The general process is outlined below \cite{diff-evol}:
 
+\begin{lstlisting}[label=lst:sel,caption=Pseudocode for the Selection Operator (Assuming a minimization approach) \cite{diff-evol},captionpos=b]
+output_vector = empty_2d_vector[num_individuals][num_design_vars]
+for integer j in [0 ... num_individuals]:
+    f1 = get_fitness(parent_vector[j])
+    f2 = get_fitness(child_vector[j])
+    if f1 < f2
+        output_vector[j] = parent_vector[j]
+    else
+        output_vector[j] = child_vector[j]
+return child_vector
+\end{lstlisting}
 
 \subsection{Extending DE to Multi-Objective}
 Differential Evolution Optimization is originally a single-objective method. However, it can easily be extended to multi-objective operation by changing the method by which fitness is evaluated. Instead of a single fitness function, multiple independent fitness functions are evaluated using the concept of Pareto dominance. 
 
 \todo{Complete this section}
 
-\subsection{Pareto Dominance}
-Pareto Dominance is a simple way to compare systems based on multiple different fitness criteria. Pareto dominance for a minimization problem can be described by the following formula: 
+\subsubsection{Pareto Dominance}
+Pareto Dominance is a simple way to compare systems based on multiple different fitness criteria. Pareto dominance for a minimization problem can be described by the following formula \cite{diff-evol}: 
 
 Let the vector of fitness values for two arbitrary solutions be defined as:
 \begin{align*}
-C_a &= 4
+	C_a &= \{ f_1, f_2, ... f_n \}\\
+	C_b &= \{ F_1, F_2, ... F_n\}
 \end{align*}
 
-$$
+Then, an operator $P_{a,b}$ can be defined which returns true if $C_a$ dominates $C_b$. This would take the following form:
+
+\begin{equation}
 P_{a,b} = \begin{cases}
           \hbox{True  when  } C_{a}^i < C_{b}^i \; \forall i \in \{1..n\}\\ 
           \hbox{False otherwise}
           \end{cases}
-$$
+\end{equation}
 
-\todo{Section incomplete}
+Note that the operator $P_{a,b}$ does not necessarily imply the value of $P_{b,a}$. While only $C_b$ or $C_a$ can be dominant, it is possible that neither is dominant. In this case, both $P_{a,b}$ and $P_{b,a}$ would be false\cite{diff-evol}. 
+
+\subsubsection{Implementing Pareto Dominance in DE}
+
+In order to extend DE to be used with multi-objective problems, the code presented in this report simply made a slight modification to the selection operator shown in code listing \ref{lst:sel}:
+
+\begin{lstlisting}[label=lst:modsel,caption=Modified Selection Operator,captionpos=b]
+output_vector = empty_2d_vector[num_individuals][num_design_vars]
+for integer j in [0 ... num_individuals]:
+    //These statements would return arrays of several fitness values. 
+    f1 = get_fitness(parent_vector[j])
+    f2 = get_fitness(child_vector[j])
+
+    if P(f2,f1)
+        output_vector[j] = child_vector[j]
+    else
+        output_vector[j] = child_vector[j]
+return child_vector
+\end{lstlisting}
+Note that the structure of the if condition ``defaults" to selecting the parent. The child is only selected if it is dominant. The parent is selected if it is dominant or if neither dominates. 
+
