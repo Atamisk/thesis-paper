@@ -1,2 +1,4 @@
 \section{Latin Hypercube Sampling}
 \label{sec:lhs}
+
+Latin hypercube sampling is used throughout the code presented here to generate evenly distributed random data. this method of sampling was selected due to its ability to evenly spread out the sampling points throughout the variable's domain. It does this by programmatically ensuring that each value of each input variable is only represented once. It does this by seperating the domain of each input variable into a predetermined number of strata, each with an identical probability of containing an arbitrary sample point. Then, one sample is taken from each of the strata. In this implementation, the different variables in the space do not interact, and the given random values of each input variable are combined at random to form a vector of input variables, also known as an individual \cite{lhs}.  
