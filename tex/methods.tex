@@ -1,34 +1,68 @@
 \section{Modeling the base beam}
-For both solution methods, a common basic design of the beam to be studied was constructed. For this study, a basic design using two ``C"-style sections to form the two main moment-bearing sections was selected. This style was selected because the cross section lends itself to paramater-based optimization, whereas more complex designs such as box beam spreaders are more well suited to full geometry optimization. \todo{Do i need to discuss geometry vs. parameter optimization?} Figure \todo{Add Figure} shows the basic design selected for this study. Dimensions presented in this figure remain constant. 
+For both solution methods, a common basic design of the beam to be studied was constructed. For this study, a basic design using two ``C"-style sections to form the two main moment-bearing sections was selected. This style was selected because the cross section lends itself to paramater-based optimization, whereas more complex designs such as box beam spreaders are more well suited to full geometry optimization. Section \ref{sec:beam_des} has details on the design. 
 
 This basic design was modeled in Siemens's Finite Element Preprocessor, FEMAP. The modeled area takes advantage of the two-plane symmetry in the beam to only model one quarter of the beam. It is worth noting that the loading on the beam is afected by the symmetry, and the loads presented for analysis are one fourth of the actual beam loadings. 
 
-\section{Solution Method - Stochastic Process}
-\subsection{Identify Load Cases}
+\section{Solution Strategies}
+Two solution strategies were attempted for the example problem proposed. One was termed as the \emph{Aggregated Latin Hypercube Sampling Approach}, while the other was named the \emph{Stochastic Loads Approach}. The following sections describe each solution method in detail and outline similarities and differences between them. 
+
+\subsection{Aggregated Latin Hypercube Approach}
+
+In a nutshell, the Aggregated Latin Hypercube (ALHS) Approach analyzes a variety of discrete load cases and collects Pareto Front data for each load case. It does this by:
+
+\begin{enumerate}
+\item Identifying Load Cases to consider
+\item Performing MODE Optimization for each identified load cases. This generates a unique Pareto Front for each load case. 
+\item Aggregating the Pareto Fronts from all load cases to find the overall best designs across all load cases. 
+\end{enumerate}
+Each individual step of this process is outlined in detail below. 
+
+\subsubsection{Identify Load Cases}
 In order to find load cases for use, a Latin Hypercube Sampling algorithm is used to select 1000 independent loading conditions within the set of possible load conditions, which is assumed to be a set of normally distributed sample spaces. In this case, the most conservative loadings are those significantly above the mean for the magnitude of the applied force. In order to ensure reliability, the set of load cases to be analyzed is restricted to those load cases more than 1.96 standard deviations above the mean value of the applied load. This ensures that all of the load cases considered are in the top 2.5\% of the sample space. This will result in a set of approximately 25 load cases to consider. \todo{May need to describe this with more mathematical vigor}
-\subsection{Analyze load Cases} 
+\subsubsection{Analyze load Cases} 
 For each load case selected, a set of 50 randomly selected candidate designs are generated. These designs are analyzed using Finite Element Analysis to find the maximum stress and design weight. These values are used as fitness functions to rank the designs. This process is repeated using a Multi Objective Differential Evolution algorithm to selectively refine the designs for a set number of generations. \todo{Section needs expanding}
 \subsubsection{Constraints}
-During the MODE optimization process, 2 constraints are applied. One requires the mass of the beam to remain under 1 metric ton (1000kg). In order to accomplish this, a fitness penalty method is used which triggers if the inequality:
+During the MODE optimization process, 1 constraint is applied. The constraint requires the mass of the modeled beam portion to remain under 1 metric ton (1000kg). In order to accomplish this, a fitness penalty method is used which triggers if the inequality:
 $$
 W_{beam} \leq 1000kg
 $$
 is violated. 
 
-The second constraint represents its factor of reliability against yielding. This factor is determined using an equation derived from the reliability index (commonly referred to as $\beta$).
-\begin{equation}\label{eq_beta_01}
-\beta = \frac{\mu_{\sigma y} - \mu_{\sigma max}}{\sqrt{\sigma_{\sigma y}^2 + \sigma_{\sigma max}^2}}
-\end{equation}
-Note that at this point in the solution, variability in the force input has been modelled through Hypercube Sampling of the entire variable space, and that these equations are being applied to such samples. Thus, these samples are the analogue of actual discrete measures of force and stress, and the ``measured stress" standard deviation can be assumed to be negligibly small compared to the standard deviation of the yield stress. Therefore, $\sigma_{\sigma max}$ can be assumed to be zero. This causes equation \ref{eq_beta_01} to reduce to: 
-\begin{equation}
-\beta = \frac{\mu_{\sigma y} - \mu_{\sigma max}}{\sigma_{\sigma y}}
-\end{equation}
-In order to use this as a constraint, the following inequality is employed. 
-\begin{equation}
-\beta = \frac{\mu_{\sigma y} - \mu_{\sigma max}}{\sigma_{\sigma y}} \geq 4
-\end{equation}
+The above constraint is applied by generating a multiplier based on the degree to which the constraint has been violated. This multiplier is used to multiply the fitness results, ensuring the solutions that violate constraints are the least dominant and are therefore much less likely to be selected to move on to the next generation in favor of more dominant designs. 
 
-The above 2 constraints are applied by generating a multiplier based on the degree to which the constraint has been violated. These multipliers are used to multiply the fitness results, ensuring the solutions that violate constraints are the least dominant and are therefore much less likely to be selected to move on to the next generation in favor of more dominant designs. 
+\subsubsection{Aggregation}
+At this point, the solution algorithm has 25 separate load cases with individual Pareto fronts. The designs that make up each Pareto front are added to a single unified set of designs. From there, they are once again ranked according to dominance and a ``final" Pareto front is generated. The designs that comprise this ``final" Pareto front are considered to be the most desirable designs and are presented to the designer.
 
-\subsection{Aggregation}
-At this point, the solution algorithm has 25 separate load cases with individual Pareto fronts. The designs that make up each Pareto front are added to a single unified set of designs. From there, they are once again ranked according to dominance and a ``final" Pareto front is generated. The designs that comprise this ``final" Pareto front are considered to be the most desirable designs and are presented to the designer. 
+\subsection{Stochastic Loads Approach}
+The stochastic loads approach is functionally similar to the Aggregated Latin Hypercube Sampling Approach, with a few key differences: 
+
+\begin{enumerate}
+\item Only a single load case is considered. 
+\item Stress is not directly considered a fitness variable. 
+\end{enumerate}
+The overall process is detailed below. 
+
+\subsubsection{Load Case}
+Instead of using multiple load cases, this approach uses a single load case. However, it is specified as a stochastic set of loads instead of discrete loads applied. For example, the load case considered for the Example System was:
+
+\begin{figure}[!h]
+    \begin{center}
+    \begin{tabular}{|l|cc|}
+	    \hline
+	    Parameter & Mean Value & Standard Deviation\\
+	    \hline
+	    Hoist Load X Direction & 0N & 5kN\\
+	    Hoist Load Y Direction & 150kN & 19.5kN\\
+	    \hline
+    \end{tabular}
+    \caption{Stochastic Parameters for Example System}
+    \label{fig:stoch_params}
+    \end{center}
+\end{figure}
+Specifying the load case this way effectively covers the entire performance envelope and makes the single load case valid for all states of load on the beam. 
+
+\subsubsection{Analyze Load Case}
+The actual analysis of the load case selected is nearly identical to the ALHS Approach. The key difference is the use of the unitless parameter $\beta$ to represent the stress on the beam. This allows the stress, and by inference the safety factor of the device, to be represented in stochastic terms. For a complete discussion and derivation of the parameter $\beta$, see section \ref{sec:beta}. Using $beta$ and the component weight as fitness measurements, MODE is performed on the load case.
+
+\subsubsection{Reporting}
+MODE optimization on the load case defined above generates a single Pareto Front that is reported to the user as recommended designs. Also reported is the Pareto Front presented graphically. 
