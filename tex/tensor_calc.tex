@@ -13,7 +13,7 @@ Where
 	   \sigma_{\sigma} &= \text{Std. Deviation of the Von Mises stress resulting from the applied load}
    \end{align*}
 
-The first two variables in the list above relate to properties of the material the object is made from, and are therefore given or assumed. The second two, however, relate to the von mises stress and must be calculated.
+The first two variables in the list above relate to properties of the material the object is made from, and are therefore given or assumed. The second two, however, relate to the von Mises stress and must be calculated.
 
 \subsection{Finding $\mu_\sigma$ and $\sigma_\sigma$}
 If $g(x_1, x_2, ... x_n) = Y$ denotes a function of multiple random variates and a single, dependent variable, let:\todo{cite} 
@@ -23,7 +23,7 @@ If $g(x_1, x_2, ... x_n) = Y$ denotes a function of multiple random variates and
 	   \sigma^2(Y) = \sum_{i=1}^{n}\left( \frac{\partial g}{\partial x_i} \sigma_{xi}  \right)^2 + 
 			 \frac{1}{4} \sum_{i=1}^{n}\left( \frac{\partial^2 g}{\partial x_i^2} \sigma_{xi}^2  \right)^2 \label{eq:sigma}
    \end{align}
-The tensor definition of the von mises stress at a given location can be written as:
+The tensor definition of the von Mises stress at a given location can be written as:
    \begin{equation}
       \sigma = \sqrt{\frac{3}{2} \cdot \left(\sigma_{dev}:\sigma_{dev} \right)}
 	\label{eq:basedef}
@@ -136,5 +136,5 @@ Now, we can take this definition of $\alpha$ and easily find the derivatives we 
 		\mathrm{tr}\left[2 \cdot \sigma_{devy} \cdot \sigma_{devy} \right]\label{eq:sd_ay}
    \end{align}
 
-   With equations \ref{eq:fd_ax} through \ref{eq:sd_ay} coupled with equations \ref{eq:fd_vmx} through \ref{eq:sd_vmy}, we have all of the terms needed to construct and solve equations \ref{eq:mu} and \ref{eq:sigma} for $\sigma$. It is then easy to substitute the results of equations \ref{eq:mu} and \ref{eq:sigma} into \ref{eq:beta} and determine $\beta$.  In the code presented with this report, all of these terms are assembled seperately and combined. Therefore, the final equation with all substitutions performed will not be shown here.
+   With equations \ref{eq:fd_ax} through \ref{eq:sd_ay} coupled with equations \ref{eq:fd_vmx} through \ref{eq:sd_vmy}, we have all of the terms needed to construct and solve equations \ref{eq:mu} and \ref{eq:sigma} for $\sigma$. It is then easy to substitute the results of equations \ref{eq:mu} and \ref{eq:sigma} into \ref{eq:beta} and determine $\beta$.  In the code presented with this report, all of these terms are assembled separately and combined. Therefore, the final equation with all substitutions performed will not be shown here.
 

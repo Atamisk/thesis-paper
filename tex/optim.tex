@@ -1,11 +1,11 @@
 \section{Numerical Optimization}
-Optimization is defined as ``a mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints."\cite{opt-def} In the specific case of engineering design, one of several techniques is used to find local or global extrema of a function of one or multiple variables. These techinques use various criteria to traverse the independent variables and detect these extrema. The method the optimizer uses to traverse the solution space has a significant impact on the speed at which the operation converges to a solution or solutions.\cite{basic-optim} \todo{Is this section complete enough?}
+Optimization is defined as ``a mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints."\cite{opt-def} In the specific case of engineering design, one of several techniques is used to find local or global extrema of a function of one or multiple variables. These techniques use various criteria to traverse the independent variables and detect these extrema. The method the optimizer uses to traverse the solution space has a significant impact on the speed at which the operation converges to a solution or solutions.\cite{basic-optim} \todo{Is this section complete enough?}
 
 \todo{Introduce the concept of the objective function}
 \subsection{Differential Evolution}
 Differential evolution was selected as the optimizer for this study. 
 
-Differential Evolution is a member of optimizers collectively known as \emph{Evolutionary Algrorithms}. These optimizers use various approaches to emulate the concept of biological evolution to optimize a given objective function. Differential optimization performs this task through the use of a 4-phased approach: Initialization, Mutation, Crossover, and Selection. \cite{diff-evol}
+Differential Evolution is a member of optimizers collectively known as \emph{Evolutionary Algorithms}. These optimizers use various approaches to emulate the concept of biological evolution to optimize a given objective function. Differential optimization performs this task through the use of a 4-phased approach: Initialization, Mutation, Crossover, and Selection. \cite{diff-evol}
 
 \subsubsection{Initialization}
 Prior to starting the optimization loop, an initial ``population" of individuals has to be generated for the optimizer to work from. An individual consists of a vector $\vec{x}$ of values of the objective function's independent variables. The Initialization process generates a vector $\vec{X} = \left\{\vec{x}_1, \vec{x}_2 \cdots \vec{x}_n\right\}$ of individuals by randomly selecting values for the independent variables. This vector represents the complete population that will be operated on in the first generation of the optimization loop. These individuals will be collectively be known as \emph{parents}.\cite{diff-evol} 
@@ -16,7 +16,7 @@ In the case of the implementation presented here, Latin Hypercube Sampling (LHS)
 The mutation operator is the first step for each cycle of the optimization loop. This algorithm emulates random mutations in genetic code commonly found in nature. Taking each individual from the vector of parents, a mutated vector of properties is generated. These vectors are known as \emph{trial vectors}. To perform this action, the basic process flow shown below is employed \cite{diff-evol}:
 
 \
-\begin{lstlisting}[caption=Pseudocode for the Mutation Operator \cite{diff-evol},captionpos=b]
+\begin{lstlisting}[caption=Pseudo-code for the Mutation Operator \cite{diff-evol},captionpos=b]
 trial_vector = empty_2d_vector[num_individuals][num_design_vars]
 for integer j in [0 ... num_individuals]:
     x_1 = individuals[j]
@@ -28,12 +28,12 @@ for integer j in [0 ... num_individuals]:
 return trial_vector
 \end{lstlisting}
 
-This set of trial vectors is one of the distinguishing facets of Differential Evolution. If the equation on line 8 above is reviewed carefully, it can be seen that the trial vector is different than its associated parent vector by the distance between 2 other random individualswithin the solution space. This has the interesting effect of causing the differences to between parent and trial vectors to change based on the condition of the solution. Early in the solution process when the individuals are sparsely spaced across the solution space, the trial individuals tend to spread apart similarly. In later cycles as minima start to become identified, the distance between individuals becomes smaller. This has the effect of making the trial vectors land more closely to their associated parents. This allows Differential evolution to converge relatively quickly once minima start to appear in the solution space \cite{diff-evol}.
+This set of trial vectors is one of the distinguishing facets of Differential Evolution. If the equation on line 8 above is reviewed carefully, it can be seen that the trial vector is different than its associated parent vector by the distance between 2 other random individuals within the solution space. This has the interesting effect of causing the differences to between parent and trial vectors to change based on the condition of the solution. Early in the solution process when the individuals are sparsely spaced across the solution space, the trial individuals tend to spread apart similarly. In later cycles as minima start to become identified, the distance between individuals becomes smaller. This has the effect of making the trial vectors land more closely to their associated parents. This allows Differential evolution to converge relatively quickly once minima start to appear in the solution space \cite{diff-evol}.
 
 \subsubsection{Crossover}
 The crossover operator combines the parent individuals and their associated trial individuals to make a single set of \emph{child individuals}. It does this using the following general procedure \cite{diff-evol}:
 
-\begin{lstlisting}[caption=Pseudocode for the Crossover Operator \cite{diff-evol},captionpos=b]
+\begin{lstlisting}[caption=Pseudo-code for the Crossover Operator \cite{diff-evol},captionpos=b]
 child_vector = empty_2d_vector[num_individuals][num_design_vars]
 for integer j in [0 ... num_individuals]:
     C = x.x // Constant that dictates how often the crossover picks from the
