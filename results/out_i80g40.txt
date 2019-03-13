@@ -1,0 +1,344 @@
+LOCATION RUN SELECTED
+Analysis Started.
+Sampling Latin-Hypercube array space (1)
+0.17945607725430743 0.5735161101939297 0.027950849718747374
+Generation 0 in system 0 starting at T+ 43.551
+Generation 0 in system 0 complete at T+ 87.914
+
+Generation 1 in system 0 starting at T+ 87.932
+Generation 1 in system 0 complete at T+ 132.163
+
+Generation 2 in system 0 starting at T+ 132.184
+Generation 2 in system 0 complete at T+ 176.272
+
+Generation 3 in system 0 starting at T+ 176.293
+Generation 3 in system 0 complete at T+ 221.231
+
+Generation 4 in system 0 starting at T+ 221.253
+Generation 4 in system 0 complete at T+ 266.843
+
+Generation 5 in system 0 starting at T+ 266.865
+Generation 5 in system 0 complete at T+ 312.872
+
+Generation 6 in system 0 starting at T+ 312.894
+Generation 6 in system 0 complete at T+ 358.130
+
+Generation 7 in system 0 starting at T+ 358.151
+Generation 7 in system 0 complete at T+ 403.050
+
+Generation 8 in system 0 starting at T+ 403.078
+Generation 8 in system 0 complete at T+ 448.208
+
+Generation 9 in system 0 starting at T+ 448.229
+Generation 9 in system 0 complete at T+ 493.180
+
+Generation 10 in system 0 starting at T+ 493.202
+Generation 10 in system 0 complete at T+ 538.895
+
+Generation 11 in system 0 starting at T+ 538.927
+Generation 11 in system 0 complete at T+ 583.458
+
+Generation 12 in system 0 starting at T+ 583.483
+Generation 12 in system 0 complete at T+ 629.773
+
+Generation 13 in system 0 starting at T+ 629.794
+Generation 13 in system 0 complete at T+ 676.138
+
+Generation 14 in system 0 starting at T+ 676.158
+Generation 14 in system 0 complete at T+ 722.786
+
+Generation 15 in system 0 starting at T+ 722.807
+Generation 15 in system 0 complete at T+ 770.083
+
+Generation 16 in system 0 starting at T+ 770.108
+Generation 16 in system 0 complete at T+ 815.827
+
+Generation 17 in system 0 starting at T+ 815.852
+Generation 17 in system 0 complete at T+ 862.970
+
+Generation 18 in system 0 starting at T+ 862.992
+Generation 18 in system 0 complete at T+ 907.716
+
+Generation 19 in system 0 starting at T+ 907.738
+Generation 19 in system 0 complete at T+ 952.414
+
+Generation 20 in system 0 starting at T+ 952.435
+Generation 20 in system 0 complete at T+ 996.638
+
+Generation 21 in system 0 starting at T+ 996.660
+Generation 21 in system 0 complete at T+ 1041.011
+
+Generation 22 in system 0 starting at T+ 1041.033
+Generation 22 in system 0 complete at T+ 1085.163
+
+Generation 23 in system 0 starting at T+ 1085.185
+Generation 23 in system 0 complete at T+ 1129.787
+
+Generation 24 in system 0 starting at T+ 1129.808
+Generation 24 in system 0 complete at T+ 1173.918
+
+Generation 25 in system 0 starting at T+ 1173.939
+Generation 25 in system 0 complete at T+ 1218.521
+
+Generation 26 in system 0 starting at T+ 1218.546
+Generation 26 in system 0 complete at T+ 1262.626
+
+Generation 27 in system 0 starting at T+ 1262.647
+Generation 27 in system 0 complete at T+ 1307.315
+
+Generation 28 in system 0 starting at T+ 1307.340
+Generation 28 in system 0 complete at T+ 1351.984
+
+Generation 29 in system 0 starting at T+ 1352.005
+Generation 29 in system 0 complete at T+ 1396.547
+
+Generation 30 in system 0 starting at T+ 1396.569
+Generation 30 in system 0 complete at T+ 1441.050
+
+Generation 31 in system 0 starting at T+ 1441.071
+Generation 31 in system 0 complete at T+ 1485.444
+
+Generation 32 in system 0 starting at T+ 1485.468
+Generation 32 in system 0 complete at T+ 1529.964
+
+Generation 33 in system 0 starting at T+ 1529.987
+Generation 33 in system 0 complete at T+ 1574.739
+
+Generation 34 in system 0 starting at T+ 1574.762
+Generation 34 in system 0 complete at T+ 1619.150
+
+Generation 35 in system 0 starting at T+ 1619.173
+Generation 35 in system 0 complete at T+ 1665.600
+
+Generation 36 in system 0 starting at T+ 1665.624
+Generation 36 in system 0 complete at T+ 1710.484
+
+Generation 37 in system 0 starting at T+ 1710.505
+Generation 37 in system 0 complete at T+ 1755.837
+
+Generation 38 in system 0 starting at T+ 1755.860
+Generation 38 in system 0 complete at T+ 1800.623
+
+Generation 39 in system 0 starting at T+ 1800.649
+Generation 39 in system 0 complete at T+ 1845.388
+
+Program Complete.
+
+Load Case Summary:
+----------------------
+Load Case 0
+  X Force:	0.00e+00
+  Y Force:	-1.47e+05
+
+Summary of valid designs:
+--------------------------
+System 0
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			7.02e+01 mm
+    Bottom Flange Width:		1.30e+02 mm
+    Web Thickness:			1.45e+01 mm
+    Doubler Thickness at Hoist Pin:	9.62e+01 mm
+    Doubler Thickness at Load Pin:	2.20e+02 mm
+  Fitness:
+    Max Stress:				4.47e+00 MPa
+    Weight:				3.57e+02 kg
+System 1
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			1.61e+02 mm
+    Bottom Flange Width:		1.07e+02 mm
+    Web Thickness:			7.35e+01 mm
+    Doubler Thickness at Hoist Pin:	8.77e+01 mm
+    Doubler Thickness at Load Pin:	1.26e+02 mm
+  Fitness:
+    Max Stress:				6.23e+00 MPa
+    Weight:				7.76e+02 kg
+System 2
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			2.21e+02 mm
+    Bottom Flange Width:		2.08e+02 mm
+    Web Thickness:			8.47e+01 mm
+    Doubler Thickness at Hoist Pin:	1.35e+02 mm
+    Doubler Thickness at Load Pin:	1.55e+02 mm
+  Fitness:
+    Max Stress:				6.61e+00 MPa
+    Weight:				9.74e+02 kg
+System 3
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			1.96e+02 mm
+    Bottom Flange Width:		2.64e+02 mm
+    Web Thickness:			2.66e+01 mm
+    Doubler Thickness at Hoist Pin:	8.59e+01 mm
+    Doubler Thickness at Load Pin:	5.57e+01 mm
+  Fitness:
+    Max Stress:				5.95e+00 MPa
+    Weight:				4.74e+02 kg
+System 4
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			7.52e+01 mm
+    Bottom Flange Width:		1.03e+02 mm
+    Web Thickness:			6.92e+01 mm
+    Doubler Thickness at Hoist Pin:	5.45e+01 mm
+    Doubler Thickness at Load Pin:	1.62e+02 mm
+  Fitness:
+    Max Stress:				6.15e+00 MPa
+    Weight:				6.97e+02 kg
+System 5
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			1.99e+02 mm
+    Bottom Flange Width:		2.16e+02 mm
+    Web Thickness:			1.96e+01 mm
+    Doubler Thickness at Hoist Pin:	5.64e+01 mm
+    Doubler Thickness at Load Pin:	2.22e+02 mm
+  Fitness:
+    Max Stress:				5.72e+00 MPa
+    Weight:				4.50e+02 kg
+System 6
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			8.24e+01 mm
+    Bottom Flange Width:		3.88e+01 mm
+    Web Thickness:			2.39e+01 mm
+    Doubler Thickness at Hoist Pin:	9.48e+00 mm
+    Doubler Thickness at Load Pin:	1.33e+02 mm
+  Fitness:
+    Max Stress:				3.89e+00 MPa
+    Weight:				2.90e+02 kg
+System 7
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			1.81e+02 mm
+    Bottom Flange Width:		1.01e+02 mm
+    Web Thickness:			3.65e+00 mm
+    Doubler Thickness at Hoist Pin:	1.34e+02 mm
+    Doubler Thickness at Load Pin:	4.65e+00 mm
+  Fitness:
+    Max Stress:				2.03e+00 MPa
+    Weight:				2.48e+02 kg
+System 8
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			7.45e+01 mm
+    Bottom Flange Width:		1.23e+02 mm
+    Web Thickness:			1.85e+00 mm
+    Doubler Thickness at Hoist Pin:	1.31e+01 mm
+    Doubler Thickness at Load Pin:	2.05e+01 mm
+  Fitness:
+    Max Stress:				-1.92e+00 MPa
+    Weight:				1.12e+02 kg
+System 9
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			4.91e+01 mm
+    Bottom Flange Width:		2.41e+02 mm
+    Web Thickness:			4.50e+01 mm
+    Doubler Thickness at Hoist Pin:	2.22e+02 mm
+    Doubler Thickness at Load Pin:	8.58e+01 mm
+  Fitness:
+    Max Stress:				6.08e+00 MPa
+    Weight:				6.62e+02 kg
+System 10
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			1.83e+02 mm
+    Bottom Flange Width:		1.67e+02 mm
+    Web Thickness:			1.12e+01 mm
+    Doubler Thickness at Hoist Pin:	1.16e+02 mm
+    Doubler Thickness at Load Pin:	1.01e+02 mm
+  Fitness:
+    Max Stress:				4.87e+00 MPa
+    Weight:				3.58e+02 kg
+System 11
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			5.31e+01 mm
+    Bottom Flange Width:		1.78e+02 mm
+    Web Thickness:			9.77e+01 mm
+    Doubler Thickness at Hoist Pin:	5.62e+01 mm
+    Doubler Thickness at Load Pin:	1.88e+02 mm
+  Fitness:
+    Max Stress:				6.61e+00 MPa
+    Weight:				9.43e+02 kg
+System 12
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			4.64e+01 mm
+    Bottom Flange Width:		2.14e+02 mm
+    Web Thickness:			8.91e+01 mm
+    Doubler Thickness at Hoist Pin:	3.27e+01 mm
+    Doubler Thickness at Load Pin:	2.62e+01 mm
+  Fitness:
+    Max Stress:				6.35e+00 MPa
+    Weight:				8.04e+02 kg
+System 13
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			2.40e+02 mm
+    Bottom Flange Width:		1.62e+02 mm
+    Web Thickness:			1.67e+01 mm
+    Doubler Thickness at Hoist Pin:	3.10e+01 mm
+    Doubler Thickness at Load Pin:	1.75e+02 mm
+  Fitness:
+    Max Stress:				5.29e+00 MPa
+    Weight:				3.84e+02 kg
+System 14
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			5.11e+00 mm
+    Bottom Flange Width:		9.52e+01 mm
+    Web Thickness:			9.45e+01 mm
+    Doubler Thickness at Hoist Pin:	1.24e+02 mm
+    Doubler Thickness at Load Pin:	2.12e+02 mm
+  Fitness:
+    Max Stress:				6.44e+00 MPa
+    Weight:				9.30e+02 kg
+System 15
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			9.79e+01 mm
+    Bottom Flange Width:		1.59e+02 mm
+    Web Thickness:			7.99e+01 mm
+    Doubler Thickness at Hoist Pin:	4.36e+01 mm
+    Doubler Thickness at Load Pin:	3.74e+01 mm
+  Fitness:
+    Max Stress:				6.20e+00 MPa
+    Weight:				7.48e+02 kg
+System 16
+  Parent Load Case:			1
+  Design Spec:
+    Top Flange Width:			3.06e+01 mm
+    Bottom Flange Width:		2.67e+02 mm
+    Web Thickness:			1.02e+02 mm
+    Doubler Thickness at Hoist Pin:	6.58e+01 mm
+    Doubler Thickness at Load Pin:	1.54e+02 mm
+  Fitness:
+    Max Stress:				6.72e+00 MPa
+    Weight:				9.96e+02 kg
+	Command being timed: "python -m pystruct /tmp/test_open.dat -S3 -i80 -g40"
+	User time (seconds): 12866.57
+	System time (seconds): 279.12
+	Percent of CPU this job got: 711%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 30:46.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 282144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 64
+	Minor (reclaiming a frame) page faults: 75073690
+	Voluntary context switches: 127694
+	Involuntary context switches: 3461038
+	Swaps: 0
+	File system inputs: 19592
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
