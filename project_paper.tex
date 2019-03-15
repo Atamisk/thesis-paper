@@ -8,7 +8,15 @@
 \usepackage{tocloft}
 \usepackage[hidelinks]{hyperref}
 \usepackage[backend=biber,style=numeric]{biblatex}
- 
+\usepackage{chngcntr}
+
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+\counterwithout{equation}{chapter}
+\AtBeginDocument{% the counter is defined later
+  \counterwithout{lstlisting}{chapter}%
+}
+
 \fancypagestyle{plain}{
 \fancyhf{}
 \fancyhead[LE,LO]{DRAFT}
@@ -21,7 +29,7 @@
 }
 \renewcommand{\listfigurename}{List of Figures}
 \renewcommand\lstlistlistingname{List of Code Listings}
-\setcounter{secnumdepth}{1}
+\setcounter{secnumdepth}{2}
 
 \addbibresource{tex/biblio.bib}
 
