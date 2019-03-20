@@ -76,6 +76,15 @@ Let the vector of fitness values for two arbitrary solutions be defined as:
 	C_b &= \{ F_1, F_2, ... F_n\}
 \end{align*}
 
+Where:
+\begin{center}
+\begin{tabular}{lcl}
+	$f_{1..n}$ & : & Fitness values for $C_a$\\
+	$F_{1..n}$ & : & Fitness values for $C_b$\\
+	$n$ & : & Number of fitness values per design (number of objective functions). 
+\end{tabular}
+\end{center}
+
 Then, an operator $P_{a,b}$ can be defined which returns true if $C_a$ dominates $C_b$. This would take the following form:
 
 \begin{equation}

@@ -1,3 +1,5 @@
+With all of the principals having been covered previously, the actual solution methodology can be discussed. This chapter provides an overview of the actual solution process used in the code that was developed. While it does not provide a full analysis and discussion of the entire codebase, it should provide sufficient information for the reader to understand the actual code provided. 
+
 \section{Modeling the base beam}
 For both solution methods, a common basic design of the beam to be studied was constructed. For this study, a basic design using two ``C"-style sections to form the two main moment-bearing sections was selected. This style was selected because the cross section lends itself to parameter-based optimization, whereas more complex designs such as box beam spreaders are more well suited to full geometry optimization. Section \ref{sec:beam_des} has details on the design. 
 
@@ -34,7 +36,7 @@ The stochastic loads approach is functionally similar to the Aggregated Latin Hy
 The overall process is detailed below. 
 
 \subsubsection{Load Case}
-Instead of using multiple load cases, this approach uses a single load case. However, it is specified as a stochastic set of loads instead of discrete loads applied. For example, the load case considered for the Example System was:
+Instead of using multiple load cases, this approach uses a single load case. However, it is specified as a stochastic set of loads instead of discrete loads applied. For example, the load case considered for the Example System is shown in Figure \ref{fig:stoch_params}. Note that this information matches the design parameters given in section \ref{sec:perf_req}. Specifying the load case this way effectively covers the entire performance envelope and makes the single load case valid for all states of load on the beam. 
 
 \begin{figure}[!h]
     \begin{center}
@@ -42,7 +44,7 @@ Instead of using multiple load cases, this approach uses a single load case. How
 	    \hline
 	    Parameter & Mean Value & Standard Deviation\\
 	    \hline
-	    Hoist Load X Direction & 0N & 5kN\\
+	    Hoist Load X Direction & 0N & 13kN\\
 	    Hoist Load Y Direction & 150kN & 19.5kN\\
 	    \hline
     \end{tabular}
@@ -50,7 +52,6 @@ Instead of using multiple load cases, this approach uses a single load case. How
     \label{fig:stoch_params}
     \end{center}
 \end{figure}
-Specifying the load case this way effectively covers the entire performance envelope and makes the single load case valid for all states of load on the beam. 
 
 \subsubsection{Analyze Load Case}
 The actual analysis of the load case selected is nearly identical to the ALHS Approach. The key difference is the use of the unitless parameter $\beta$ to represent the stress on the beam. This allows the stress, and by inference the safety factor of the device, to be represented in stochastic terms. For a complete discussion and derivation of the parameter $\beta$, see section \ref{sec:beta}. Using $\beta$ and the component weight as fitness measurements, MODE is performed on the load case.
