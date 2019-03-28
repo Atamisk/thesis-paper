@@ -1,0 +1,1471 @@
+DWU Run selected.
+Sampling Latin-Hypercube array space (1)
+0.0013403072627771453 0.006210863788484672 0.0014142135623730952
+0.001170540740216549 0.0032401642584289456 0.0014142135623730952
+0.0016306581557590713 0.00757883037357755 0.0014142135623730952
+Of 1000 generated systems, 25 meet the minimum force criterion.
+Analysis Started.
+Sampling Latin-Hypercube array space (1)
+0.2037529714030942 0.6464226344428444 0.027950849718747374
+Generation 0 in system 0 starting at T+ 20.046
+Generation 0 in system 0 complete at T+ 39.610
+
+Generation 1 in system 0 starting at T+ 39.610
+Generation 1 in system 0 complete at T+ 58.748
+
+Generation 2 in system 0 starting at T+ 58.748
+Generation 2 in system 0 complete at T+ 78.368
+
+Generation 3 in system 0 starting at T+ 78.368
+Generation 3 in system 0 complete at T+ 97.970
+
+Generation 4 in system 0 starting at T+ 97.970
+Generation 4 in system 0 complete at T+ 117.501
+
+Generation 5 in system 0 starting at T+ 117.501
+Generation 5 in system 0 complete at T+ 136.993
+
+Generation 6 in system 0 starting at T+ 136.993
+Generation 6 in system 0 complete at T+ 156.629
+
+Generation 7 in system 0 starting at T+ 156.629
+Generation 7 in system 0 complete at T+ 175.777
+
+Generation 8 in system 0 starting at T+ 175.777
+Generation 8 in system 0 complete at T+ 195.243
+
+Generation 9 in system 0 starting at T+ 195.243
+Generation 9 in system 0 complete at T+ 214.821
+
+Generation 10 in system 0 starting at T+ 214.821
+Generation 10 in system 0 complete at T+ 234.457
+
+Generation 11 in system 0 starting at T+ 234.457
+Generation 11 in system 0 complete at T+ 253.745
+
+Generation 12 in system 0 starting at T+ 253.745
+Generation 12 in system 0 complete at T+ 273.271
+
+Generation 13 in system 0 starting at T+ 273.271
+Generation 13 in system 0 complete at T+ 292.530
+
+Generation 14 in system 0 starting at T+ 292.530
+Generation 14 in system 0 complete at T+ 311.792
+
+Generation 15 in system 0 starting at T+ 311.792
+Generation 15 in system 0 complete at T+ 331.157
+
+Generation 16 in system 0 starting at T+ 331.158
+Generation 16 in system 0 complete at T+ 350.695
+
+Sampling Latin-Hypercube array space (1)
+0.09266666541185206 0.33446019126508425 0.027950849718747374
+Generation 0 in system 1 starting at T+ 370.402
+Generation 0 in system 1 complete at T+ 389.874
+
+Generation 1 in system 1 starting at T+ 389.874
+Generation 1 in system 1 complete at T+ 409.208
+
+Generation 2 in system 1 starting at T+ 409.208
+Generation 2 in system 1 complete at T+ 428.552
+
+Generation 3 in system 1 starting at T+ 428.552
+Generation 3 in system 1 complete at T+ 447.897
+
+Generation 4 in system 1 starting at T+ 447.897
+Generation 4 in system 1 complete at T+ 467.424
+
+Generation 5 in system 1 starting at T+ 467.424
+Generation 5 in system 1 complete at T+ 486.577
+
+Generation 6 in system 1 starting at T+ 486.577
+Generation 6 in system 1 complete at T+ 505.930
+
+Generation 7 in system 1 starting at T+ 505.930
+Generation 7 in system 1 complete at T+ 525.370
+
+Generation 8 in system 1 starting at T+ 525.370
+Generation 8 in system 1 complete at T+ 544.999
+
+Generation 9 in system 1 starting at T+ 544.999
+Generation 9 in system 1 complete at T+ 564.278
+
+Generation 10 in system 1 starting at T+ 564.278
+Generation 10 in system 1 complete at T+ 583.638
+
+Generation 11 in system 1 starting at T+ 583.638
+Generation 11 in system 1 complete at T+ 603.231
+
+Generation 12 in system 1 starting at T+ 603.231
+Generation 12 in system 1 complete at T+ 622.471
+
+Generation 13 in system 1 starting at T+ 622.471
+Generation 13 in system 1 complete at T+ 641.944
+
+Generation 14 in system 1 starting at T+ 641.944
+Generation 14 in system 1 complete at T+ 661.212
+
+Generation 15 in system 1 starting at T+ 661.212
+Generation 15 in system 1 complete at T+ 680.655
+
+Generation 16 in system 1 starting at T+ 680.656
+Generation 16 in system 1 complete at T+ 699.997
+
+Sampling Latin-Hypercube array space (1)
+0.15457916781184752 0.4514990226949524 0.027950849718747374
+Generation 0 in system 2 starting at T+ 719.688
+Generation 0 in system 2 complete at T+ 738.865
+
+Generation 1 in system 2 starting at T+ 738.865
+Generation 1 in system 2 complete at T+ 758.230
+
+Generation 2 in system 2 starting at T+ 758.230
+Generation 2 in system 2 complete at T+ 777.757
+
+Generation 3 in system 2 starting at T+ 777.757
+Generation 3 in system 2 complete at T+ 797.299
+
+Generation 4 in system 2 starting at T+ 797.299
+Generation 4 in system 2 complete at T+ 816.875
+
+Generation 5 in system 2 starting at T+ 816.875
+Generation 5 in system 2 complete at T+ 836.139
+
+Generation 6 in system 2 starting at T+ 836.139
+Generation 6 in system 2 complete at T+ 855.564
+
+Generation 7 in system 2 starting at T+ 855.564
+Generation 7 in system 2 complete at T+ 874.721
+
+Generation 8 in system 2 starting at T+ 874.721
+Generation 8 in system 2 complete at T+ 894.156
+
+Generation 9 in system 2 starting at T+ 894.157
+Generation 9 in system 2 complete at T+ 913.294
+
+Generation 10 in system 2 starting at T+ 913.294
+Generation 10 in system 2 complete at T+ 932.726
+
+Generation 11 in system 2 starting at T+ 932.726
+Generation 11 in system 2 complete at T+ 952.087
+
+Generation 12 in system 2 starting at T+ 952.087
+Generation 12 in system 2 complete at T+ 971.437
+
+Generation 13 in system 2 starting at T+ 971.437
+Generation 13 in system 2 complete at T+ 990.779
+
+Generation 14 in system 2 starting at T+ 990.779
+Generation 14 in system 2 complete at T+ 1010.007
+
+Generation 15 in system 2 starting at T+ 1010.007
+Generation 15 in system 2 complete at T+ 1029.559
+
+Generation 16 in system 2 starting at T+ 1029.559
+Generation 16 in system 2 complete at T+ 1048.927
+
+Sampling Latin-Hypercube array space (1)
+0.14000100167251167 0.49098900116979843 0.027950849718747374
+Generation 0 in system 3 starting at T+ 1068.591
+Generation 0 in system 3 complete at T+ 1087.681
+
+Generation 1 in system 3 starting at T+ 1087.681
+Generation 1 in system 3 complete at T+ 1106.950
+
+Generation 2 in system 3 starting at T+ 1106.950
+Generation 2 in system 3 complete at T+ 1126.295
+
+Generation 3 in system 3 starting at T+ 1126.296
+Generation 3 in system 3 complete at T+ 1145.734
+
+Generation 4 in system 3 starting at T+ 1145.734
+Generation 4 in system 3 complete at T+ 1165.060
+
+Generation 5 in system 3 starting at T+ 1165.060
+Generation 5 in system 3 complete at T+ 1184.690
+
+Generation 6 in system 3 starting at T+ 1184.690
+Generation 6 in system 3 complete at T+ 1204.281
+
+Generation 7 in system 3 starting at T+ 1204.281
+Generation 7 in system 3 complete at T+ 1223.742
+
+Generation 8 in system 3 starting at T+ 1223.742
+Generation 8 in system 3 complete at T+ 1242.909
+
+Generation 9 in system 3 starting at T+ 1242.909
+Generation 9 in system 3 complete at T+ 1262.273
+
+Generation 10 in system 3 starting at T+ 1262.273
+Generation 10 in system 3 complete at T+ 1281.836
+
+Generation 11 in system 3 starting at T+ 1281.836
+Generation 11 in system 3 complete at T+ 1301.365
+
+Generation 12 in system 3 starting at T+ 1301.365
+Generation 12 in system 3 complete at T+ 1320.951
+
+Generation 13 in system 3 starting at T+ 1320.951
+Generation 13 in system 3 complete at T+ 1340.196
+
+Generation 14 in system 3 starting at T+ 1340.196
+Generation 14 in system 3 complete at T+ 1359.662
+
+Generation 15 in system 3 starting at T+ 1359.662
+Generation 15 in system 3 complete at T+ 1379.013
+
+Generation 16 in system 3 starting at T+ 1379.013
+Generation 16 in system 3 complete at T+ 1398.519
+
+Sampling Latin-Hypercube array space (1)
+0.12698839074912738 0.5137576659831836 0.027950849718747374
+Generation 0 in system 4 starting at T+ 1418.079
+Generation 0 in system 4 complete at T+ 1437.761
+
+Generation 1 in system 4 starting at T+ 1437.761
+Generation 1 in system 4 complete at T+ 1457.135
+
+Generation 2 in system 4 starting at T+ 1457.136
+Generation 2 in system 4 complete at T+ 1476.463
+
+Generation 3 in system 4 starting at T+ 1476.463
+Generation 3 in system 4 complete at T+ 1495.823
+
+Generation 4 in system 4 starting at T+ 1495.823
+Generation 4 in system 4 complete at T+ 1515.387
+
+Generation 5 in system 4 starting at T+ 1515.387
+Generation 5 in system 4 complete at T+ 1534.652
+
+Generation 6 in system 4 starting at T+ 1534.652
+Generation 6 in system 4 complete at T+ 1554.192
+
+Generation 7 in system 4 starting at T+ 1554.192
+Generation 7 in system 4 complete at T+ 1573.821
+
+Generation 8 in system 4 starting at T+ 1573.821
+Generation 8 in system 4 complete at T+ 1593.188
+
+Generation 9 in system 4 starting at T+ 1593.188
+Generation 9 in system 4 complete at T+ 1612.856
+
+Generation 10 in system 4 starting at T+ 1612.857
+Generation 10 in system 4 complete at T+ 1632.318
+
+Generation 11 in system 4 starting at T+ 1632.318
+Generation 11 in system 4 complete at T+ 1651.644
+
+Generation 12 in system 4 starting at T+ 1651.644
+Generation 12 in system 4 complete at T+ 1670.908
+
+Generation 13 in system 4 starting at T+ 1670.908
+Generation 13 in system 4 complete at T+ 1690.087
+
+Generation 14 in system 4 starting at T+ 1690.087
+Generation 14 in system 4 complete at T+ 1709.618
+
+Generation 15 in system 4 starting at T+ 1709.618
+Generation 15 in system 4 complete at T+ 1729.172
+
+Generation 16 in system 4 starting at T+ 1729.172
+Generation 16 in system 4 complete at T+ 1748.797
+
+Sampling Latin-Hypercube array space (1)
+0.13463136735496206 0.4899415165519568 0.027950849718747374
+Generation 0 in system 5 starting at T+ 1768.569
+Generation 0 in system 5 complete at T+ 1787.888
+
+Generation 1 in system 5 starting at T+ 1787.888
+Generation 1 in system 5 complete at T+ 1807.454
+
+Generation 2 in system 5 starting at T+ 1807.454
+Generation 2 in system 5 complete at T+ 1826.691
+
+Generation 3 in system 5 starting at T+ 1826.691
+Generation 3 in system 5 complete at T+ 1846.213
+
+Generation 4 in system 5 starting at T+ 1846.213
+Generation 4 in system 5 complete at T+ 1865.761
+
+Generation 5 in system 5 starting at T+ 1865.761
+Generation 5 in system 5 complete at T+ 1884.926
+
+Generation 6 in system 5 starting at T+ 1884.926
+Generation 6 in system 5 complete at T+ 1904.502
+
+Generation 7 in system 5 starting at T+ 1904.502
+Generation 7 in system 5 complete at T+ 1924.032
+
+Generation 8 in system 5 starting at T+ 1924.032
+Generation 8 in system 5 complete at T+ 1943.583
+
+Generation 9 in system 5 starting at T+ 1943.583
+Generation 9 in system 5 complete at T+ 1963.046
+
+Generation 10 in system 5 starting at T+ 1963.046
+Generation 10 in system 5 complete at T+ 1982.321
+
+Generation 11 in system 5 starting at T+ 1982.321
+Generation 11 in system 5 complete at T+ 2001.848
+
+Generation 12 in system 5 starting at T+ 2001.848
+Generation 12 in system 5 complete at T+ 2021.118
+
+Generation 13 in system 5 starting at T+ 2021.118
+Generation 13 in system 5 complete at T+ 2040.686
+
+Generation 14 in system 5 starting at T+ 2040.686
+Generation 14 in system 5 complete at T+ 2060.018
+
+Generation 15 in system 5 starting at T+ 2060.018
+Generation 15 in system 5 complete at T+ 2079.174
+
+Generation 16 in system 5 starting at T+ 2079.174
+Generation 16 in system 5 complete at T+ 2098.532
+
+Sampling Latin-Hypercube array space (1)
+0.20367042990725842 0.6603674359235594 0.027950849718747374
+Generation 0 in system 6 starting at T+ 2118.212
+Generation 0 in system 6 complete at T+ 2137.442
+
+Generation 1 in system 6 starting at T+ 2137.442
+Generation 1 in system 6 complete at T+ 2156.669
+
+Generation 2 in system 6 starting at T+ 2156.669
+Generation 2 in system 6 complete at T+ 2175.937
+
+Generation 3 in system 6 starting at T+ 2175.937
+Generation 3 in system 6 complete at T+ 2195.109
+
+Generation 4 in system 6 starting at T+ 2195.109
+Generation 4 in system 6 complete at T+ 2214.758
+
+Generation 5 in system 6 starting at T+ 2214.758
+Generation 5 in system 6 complete at T+ 2234.386
+
+Generation 6 in system 6 starting at T+ 2234.386
+Generation 6 in system 6 complete at T+ 2254.030
+
+Generation 7 in system 6 starting at T+ 2254.030
+Generation 7 in system 6 complete at T+ 2273.185
+
+Generation 8 in system 6 starting at T+ 2273.185
+Generation 8 in system 6 complete at T+ 2292.549
+
+Generation 9 in system 6 starting at T+ 2292.549
+Generation 9 in system 6 complete at T+ 2311.989
+
+Generation 10 in system 6 starting at T+ 2311.989
+Generation 10 in system 6 complete at T+ 2331.525
+
+Generation 11 in system 6 starting at T+ 2331.525
+Generation 11 in system 6 complete at T+ 2351.189
+
+Generation 12 in system 6 starting at T+ 2351.189
+Generation 12 in system 6 complete at T+ 2370.429
+
+Generation 13 in system 6 starting at T+ 2370.429
+Generation 13 in system 6 complete at T+ 2389.857
+
+Generation 14 in system 6 starting at T+ 2389.857
+Generation 14 in system 6 complete at T+ 2409.314
+
+Generation 15 in system 6 starting at T+ 2409.314
+Generation 15 in system 6 complete at T+ 2428.920
+
+Generation 16 in system 6 starting at T+ 2428.920
+Generation 16 in system 6 complete at T+ 2448.260
+
+Sampling Latin-Hypercube array space (1)
+0.11026995043269196 0.3907932983383076 0.027950849718747374
+Generation 0 in system 7 starting at T+ 2468.159
+Generation 0 in system 7 complete at T+ 2487.711
+
+Generation 1 in system 7 starting at T+ 2487.711
+Generation 1 in system 7 complete at T+ 2506.979
+
+Generation 2 in system 7 starting at T+ 2506.979
+Generation 2 in system 7 complete at T+ 2526.220
+
+Generation 3 in system 7 starting at T+ 2526.220
+Generation 3 in system 7 complete at T+ 2545.689
+
+Generation 4 in system 7 starting at T+ 2545.689
+Generation 4 in system 7 complete at T+ 2565.058
+
+Generation 5 in system 7 starting at T+ 2565.058
+Generation 5 in system 7 complete at T+ 2584.233
+
+Generation 6 in system 7 starting at T+ 2584.233
+Generation 6 in system 7 complete at T+ 2603.292
+
+Generation 7 in system 7 starting at T+ 2603.292
+Generation 7 in system 7 complete at T+ 2622.832
+
+Generation 8 in system 7 starting at T+ 2622.832
+Generation 8 in system 7 complete at T+ 2641.977
+
+Generation 9 in system 7 starting at T+ 2641.977
+Generation 9 in system 7 complete at T+ 2661.513
+
+Generation 10 in system 7 starting at T+ 2661.513
+Generation 10 in system 7 complete at T+ 2680.953
+
+Generation 11 in system 7 starting at T+ 2680.953
+Generation 11 in system 7 complete at T+ 2700.531
+
+Generation 12 in system 7 starting at T+ 2700.531
+Generation 12 in system 7 complete at T+ 2720.168
+
+Generation 13 in system 7 starting at T+ 2720.168
+Generation 13 in system 7 complete at T+ 2739.362
+
+Generation 14 in system 7 starting at T+ 2739.362
+Generation 14 in system 7 complete at T+ 2758.526
+
+Generation 15 in system 7 starting at T+ 2758.526
+Generation 15 in system 7 complete at T+ 2777.867
+
+Generation 16 in system 7 starting at T+ 2777.867
+Generation 16 in system 7 complete at T+ 2797.451
+
+Sampling Latin-Hypercube array space (1)
+0.15059184545872295 0.4256869207596455 0.027950849718747374
+Generation 0 in system 8 starting at T+ 2817.025
+Generation 0 in system 8 complete at T+ 2836.569
+
+Generation 1 in system 8 starting at T+ 2836.569
+Generation 1 in system 8 complete at T+ 2855.920
+
+Generation 2 in system 8 starting at T+ 2855.920
+Generation 2 in system 8 complete at T+ 2875.361
+
+Generation 3 in system 8 starting at T+ 2875.361
+Generation 3 in system 8 complete at T+ 2894.659
+
+Generation 4 in system 8 starting at T+ 2894.659
+Generation 4 in system 8 complete at T+ 2913.926
+
+Generation 5 in system 8 starting at T+ 2913.926
+Generation 5 in system 8 complete at T+ 2933.283
+
+Generation 6 in system 8 starting at T+ 2933.283
+Generation 6 in system 8 complete at T+ 2952.731
+
+Generation 7 in system 8 starting at T+ 2952.731
+Generation 7 in system 8 complete at T+ 2972.272
+
+Generation 8 in system 8 starting at T+ 2972.272
+Generation 8 in system 8 complete at T+ 2991.539
+
+Generation 9 in system 8 starting at T+ 2991.539
+Generation 9 in system 8 complete at T+ 3010.806
+
+Generation 10 in system 8 starting at T+ 3010.806
+Generation 10 in system 8 complete at T+ 3030.169
+
+Generation 11 in system 8 starting at T+ 3030.169
+Generation 11 in system 8 complete at T+ 3049.705
+
+Generation 12 in system 8 starting at T+ 3049.705
+Generation 12 in system 8 complete at T+ 3069.048
+
+Generation 13 in system 8 starting at T+ 3069.048
+Generation 13 in system 8 complete at T+ 3088.518
+
+Generation 14 in system 8 starting at T+ 3088.518
+Generation 14 in system 8 complete at T+ 3108.083
+
+Generation 15 in system 8 starting at T+ 3108.084
+Generation 15 in system 8 complete at T+ 3127.453
+
+Generation 16 in system 8 starting at T+ 3127.453
+Generation 16 in system 8 complete at T+ 3147.021
+
+Sampling Latin-Hypercube array space (1)
+0.1059019875486757 0.38308059043649895 0.027950849718747374
+Generation 0 in system 9 starting at T+ 3166.905
+Generation 0 in system 9 complete at T+ 3186.171
+
+Generation 1 in system 9 starting at T+ 3186.171
+Generation 1 in system 9 complete at T+ 3205.332
+
+Generation 2 in system 9 starting at T+ 3205.332
+Generation 2 in system 9 complete at T+ 3224.510
+
+Generation 3 in system 9 starting at T+ 3224.510
+Generation 3 in system 9 complete at T+ 3243.763
+
+Generation 4 in system 9 starting at T+ 3243.763
+Generation 4 in system 9 complete at T+ 3263.390
+
+Generation 5 in system 9 starting at T+ 3263.390
+Generation 5 in system 9 complete at T+ 3282.669
+
+Generation 6 in system 9 starting at T+ 3282.669
+Generation 6 in system 9 complete at T+ 3302.112
+
+Generation 7 in system 9 starting at T+ 3302.112
+Generation 7 in system 9 complete at T+ 3321.283
+
+Generation 8 in system 9 starting at T+ 3321.283
+Generation 8 in system 9 complete at T+ 3340.424
+
+Generation 9 in system 9 starting at T+ 3340.424
+Generation 9 in system 9 complete at T+ 3359.661
+
+Generation 10 in system 9 starting at T+ 3359.661
+Generation 10 in system 9 complete at T+ 3379.306
+
+Generation 11 in system 9 starting at T+ 3379.306
+Generation 11 in system 9 complete at T+ 3399.032
+
+Generation 12 in system 9 starting at T+ 3399.032
+Generation 12 in system 9 complete at T+ 3418.288
+
+Generation 13 in system 9 starting at T+ 3418.288
+Generation 13 in system 9 complete at T+ 3437.859
+
+Generation 14 in system 9 starting at T+ 3437.859
+Generation 14 in system 9 complete at T+ 3457.225
+
+Generation 15 in system 9 starting at T+ 3457.225
+Generation 15 in system 9 complete at T+ 3476.585
+
+Generation 16 in system 9 starting at T+ 3476.585
+Generation 16 in system 9 complete at T+ 3495.816
+
+Sampling Latin-Hypercube array space (1)
+0.194168410518328 0.6088448113430709 0.027950849718747374
+Generation 0 in system 10 starting at T+ 3515.666
+Generation 0 in system 10 complete at T+ 3534.903
+
+Generation 1 in system 10 starting at T+ 3534.904
+Generation 1 in system 10 complete at T+ 3554.443
+
+Generation 2 in system 10 starting at T+ 3554.443
+Generation 2 in system 10 complete at T+ 3573.801
+
+Generation 3 in system 10 starting at T+ 3573.801
+Generation 3 in system 10 complete at T+ 3593.149
+
+Generation 4 in system 10 starting at T+ 3593.149
+Generation 4 in system 10 complete at T+ 3612.402
+
+Generation 5 in system 10 starting at T+ 3612.402
+Generation 5 in system 10 complete at T+ 3631.748
+
+Generation 6 in system 10 starting at T+ 3631.748
+Generation 6 in system 10 complete at T+ 3651.324
+
+Generation 7 in system 10 starting at T+ 3651.324
+Generation 7 in system 10 complete at T+ 3670.652
+
+Generation 8 in system 10 starting at T+ 3670.652
+Generation 8 in system 10 complete at T+ 3690.040
+
+Generation 9 in system 10 starting at T+ 3690.040
+Generation 9 in system 10 complete at T+ 3709.286
+
+Generation 10 in system 10 starting at T+ 3709.286
+Generation 10 in system 10 complete at T+ 3728.680
+
+Generation 11 in system 10 starting at T+ 3728.680
+Generation 11 in system 10 complete at T+ 3748.030
+
+Generation 12 in system 10 starting at T+ 3748.030
+Generation 12 in system 10 complete at T+ 3767.475
+
+Generation 13 in system 10 starting at T+ 3767.475
+Generation 13 in system 10 complete at T+ 3787.025
+
+Generation 14 in system 10 starting at T+ 3787.025
+Generation 14 in system 10 complete at T+ 3806.107
+
+Generation 15 in system 10 starting at T+ 3806.107
+Generation 15 in system 10 complete at T+ 3825.246
+
+Generation 16 in system 10 starting at T+ 3825.246
+Generation 16 in system 10 complete at T+ 3844.416
+
+Sampling Latin-Hypercube array space (1)
+0.13160439374926597 0.575080816759063 0.027950849718747374
+Generation 0 in system 11 starting at T+ 3864.083
+Generation 0 in system 11 complete at T+ 3883.644
+
+Generation 1 in system 11 starting at T+ 3883.644
+Generation 1 in system 11 complete at T+ 3903.114
+
+Generation 2 in system 11 starting at T+ 3903.114
+Generation 2 in system 11 complete at T+ 3922.541
+
+Generation 3 in system 11 starting at T+ 3922.541
+Generation 3 in system 11 complete at T+ 3941.728
+
+Generation 4 in system 11 starting at T+ 3941.728
+Generation 4 in system 11 complete at T+ 3961.162
+
+Generation 5 in system 11 starting at T+ 3961.162
+Generation 5 in system 11 complete at T+ 3980.706
+
+Generation 6 in system 11 starting at T+ 3980.706
+Generation 6 in system 11 complete at T+ 4000.048
+
+Generation 7 in system 11 starting at T+ 4000.048
+Generation 7 in system 11 complete at T+ 4019.492
+
+Generation 8 in system 11 starting at T+ 4019.493
+Generation 8 in system 11 complete at T+ 4038.643
+
+Generation 9 in system 11 starting at T+ 4038.643
+Generation 9 in system 11 complete at T+ 4057.887
+
+Generation 10 in system 11 starting at T+ 4057.887
+Generation 10 in system 11 complete at T+ 4077.436
+
+Generation 11 in system 11 starting at T+ 4077.437
+Generation 11 in system 11 complete at T+ 4096.976
+
+Generation 12 in system 11 starting at T+ 4096.976
+Generation 12 in system 11 complete at T+ 4116.241
+
+Generation 13 in system 11 starting at T+ 4116.241
+Generation 13 in system 11 complete at T+ 4135.789
+
+Generation 14 in system 11 starting at T+ 4135.789
+Generation 14 in system 11 complete at T+ 4154.932
+
+Generation 15 in system 11 starting at T+ 4154.933
+Generation 15 in system 11 complete at T+ 4174.574
+
+Generation 16 in system 11 starting at T+ 4174.574
+Generation 16 in system 11 complete at T+ 4193.807
+
+Sampling Latin-Hypercube array space (1)
+0.14439256888343557 0.5151054697706974 0.027950849718747374
+Generation 0 in system 12 starting at T+ 4213.581
+Generation 0 in system 12 complete at T+ 4232.898
+
+Generation 1 in system 12 starting at T+ 4232.898
+Generation 1 in system 12 complete at T+ 4252.439
+
+Generation 2 in system 12 starting at T+ 4252.439
+Generation 2 in system 12 complete at T+ 4271.376
+
+Generation 3 in system 12 starting at T+ 4271.376
+Generation 3 in system 12 complete at T+ 4290.828
+
+Generation 4 in system 12 starting at T+ 4290.828
+Generation 4 in system 12 complete at T+ 4310.079
+
+Generation 5 in system 12 starting at T+ 4310.079
+Generation 5 in system 12 complete at T+ 4329.620
+
+Generation 6 in system 12 starting at T+ 4329.620
+Generation 6 in system 12 complete at T+ 4349.043
+
+Generation 7 in system 12 starting at T+ 4349.043
+Generation 7 in system 12 complete at T+ 4368.604
+
+Generation 8 in system 12 starting at T+ 4368.604
+Generation 8 in system 12 complete at T+ 4387.859
+
+Generation 9 in system 12 starting at T+ 4387.859
+Generation 9 in system 12 complete at T+ 4407.186
+
+Generation 10 in system 12 starting at T+ 4407.186
+Generation 10 in system 12 complete at T+ 4426.652
+
+Generation 11 in system 12 starting at T+ 4426.652
+Generation 11 in system 12 complete at T+ 4446.199
+
+Generation 12 in system 12 starting at T+ 4446.199
+Generation 12 in system 12 complete at T+ 4465.239
+
+Generation 13 in system 12 starting at T+ 4465.239
+Generation 13 in system 12 complete at T+ 4484.500
+
+Generation 14 in system 12 starting at T+ 4484.500
+Generation 14 in system 12 complete at T+ 4503.892
+
+Generation 15 in system 12 starting at T+ 4503.892
+Generation 15 in system 12 complete at T+ 4523.333
+
+Generation 16 in system 12 starting at T+ 4523.333
+Generation 16 in system 12 complete at T+ 4542.598
+
+Sampling Latin-Hypercube array space (1)
+0.12759720413522313 0.4763536309159823 0.027950849718747374
+Generation 0 in system 13 starting at T+ 4562.283
+Generation 0 in system 13 complete at T+ 4581.681
+
+Generation 1 in system 13 starting at T+ 4581.681
+Generation 1 in system 13 complete at T+ 4600.823
+
+Generation 2 in system 13 starting at T+ 4600.823
+Generation 2 in system 13 complete at T+ 4620.279
+
+Generation 3 in system 13 starting at T+ 4620.279
+Generation 3 in system 13 complete at T+ 4639.756
+
+Generation 4 in system 13 starting at T+ 4639.756
+Generation 4 in system 13 complete at T+ 4658.933
+
+Generation 5 in system 13 starting at T+ 4658.933
+Generation 5 in system 13 complete at T+ 4678.723
+
+Generation 6 in system 13 starting at T+ 4678.724
+Generation 6 in system 13 complete at T+ 4698.101
+
+Generation 7 in system 13 starting at T+ 4698.101
+Generation 7 in system 13 complete at T+ 4717.677
+
+Generation 8 in system 13 starting at T+ 4717.677
+Generation 8 in system 13 complete at T+ 4736.950
+
+Generation 9 in system 13 starting at T+ 4736.950
+Generation 9 in system 13 complete at T+ 4756.181
+
+Generation 10 in system 13 starting at T+ 4756.181
+Generation 10 in system 13 complete at T+ 4775.351
+
+Generation 11 in system 13 starting at T+ 4775.351
+Generation 11 in system 13 complete at T+ 4794.521
+
+Generation 12 in system 13 starting at T+ 4794.521
+Generation 12 in system 13 complete at T+ 4814.092
+
+Generation 13 in system 13 starting at T+ 4814.093
+Generation 13 in system 13 complete at T+ 4833.346
+
+Generation 14 in system 13 starting at T+ 4833.346
+Generation 14 in system 13 complete at T+ 4852.578
+
+Generation 15 in system 13 starting at T+ 4852.578
+Generation 15 in system 13 complete at T+ 4872.160
+
+Generation 16 in system 13 starting at T+ 4872.160
+Generation 16 in system 13 complete at T+ 4891.805
+
+Sampling Latin-Hypercube array space (1)
+0.10894065394507575 0.5073438401866939 0.027950849718747374
+Generation 0 in system 14 starting at T+ 4911.568
+Generation 0 in system 14 complete at T+ 4930.938
+
+Generation 1 in system 14 starting at T+ 4930.938
+Generation 1 in system 14 complete at T+ 4950.205
+
+Generation 2 in system 14 starting at T+ 4950.205
+Generation 2 in system 14 complete at T+ 4969.447
+
+Generation 3 in system 14 starting at T+ 4969.447
+Generation 3 in system 14 complete at T+ 4989.074
+
+Generation 4 in system 14 starting at T+ 4989.074
+Generation 4 in system 14 complete at T+ 5008.336
+
+Generation 5 in system 14 starting at T+ 5008.336
+Generation 5 in system 14 complete at T+ 5027.988
+
+Generation 6 in system 14 starting at T+ 5027.988
+Generation 6 in system 14 complete at T+ 5047.330
+
+Generation 7 in system 14 starting at T+ 5047.330
+Generation 7 in system 14 complete at T+ 5066.858
+
+Generation 8 in system 14 starting at T+ 5066.858
+Generation 8 in system 14 complete at T+ 5086.357
+
+Generation 9 in system 14 starting at T+ 5086.358
+Generation 9 in system 14 complete at T+ 5105.500
+
+Generation 10 in system 14 starting at T+ 5105.500
+Generation 10 in system 14 complete at T+ 5124.872
+
+Generation 11 in system 14 starting at T+ 5124.872
+Generation 11 in system 14 complete at T+ 5144.450
+
+Generation 12 in system 14 starting at T+ 5144.450
+Generation 12 in system 14 complete at T+ 5163.893
+
+Generation 13 in system 14 starting at T+ 5163.893
+Generation 13 in system 14 complete at T+ 5183.263
+
+Generation 14 in system 14 starting at T+ 5183.263
+Generation 14 in system 14 complete at T+ 5202.914
+
+Generation 15 in system 14 starting at T+ 5202.914
+Generation 15 in system 14 complete at T+ 5222.394
+
+Generation 16 in system 14 starting at T+ 5222.394
+Generation 16 in system 14 complete at T+ 5241.665
+
+Sampling Latin-Hypercube array space (1)
+0.12965816429380508 0.4761188793115921 0.027950849718747374
+Generation 0 in system 15 starting at T+ 5261.394
+Generation 0 in system 15 complete at T+ 5280.556
+
+Generation 1 in system 15 starting at T+ 5280.556
+Generation 1 in system 15 complete at T+ 5299.802
+
+Generation 2 in system 15 starting at T+ 5299.802
+Generation 2 in system 15 complete at T+ 5319.257
+
+Generation 3 in system 15 starting at T+ 5319.257
+Generation 3 in system 15 complete at T+ 5338.826
+
+Generation 4 in system 15 starting at T+ 5338.826
+Generation 4 in system 15 complete at T+ 5358.499
+
+Generation 5 in system 15 starting at T+ 5358.499
+Generation 5 in system 15 complete at T+ 5377.755
+
+Generation 6 in system 15 starting at T+ 5377.755
+Generation 6 in system 15 complete at T+ 5396.830
+
+Generation 7 in system 15 starting at T+ 5396.830
+Generation 7 in system 15 complete at T+ 5416.410
+
+Generation 8 in system 15 starting at T+ 5416.411
+Generation 8 in system 15 complete at T+ 5435.910
+
+Generation 9 in system 15 starting at T+ 5435.910
+Generation 9 in system 15 complete at T+ 5455.256
+
+Generation 10 in system 15 starting at T+ 5455.256
+Generation 10 in system 15 complete at T+ 5474.507
+
+Generation 11 in system 15 starting at T+ 5474.507
+Generation 11 in system 15 complete at T+ 5494.281
+
+Generation 12 in system 15 starting at T+ 5494.281
+Generation 12 in system 15 complete at T+ 5513.728
+
+Generation 13 in system 15 starting at T+ 5513.729
+Generation 13 in system 15 complete at T+ 5533.214
+
+Generation 14 in system 15 starting at T+ 5533.214
+Generation 14 in system 15 complete at T+ 5552.489
+
+Generation 15 in system 15 starting at T+ 5552.489
+Generation 15 in system 15 complete at T+ 5571.863
+
+Generation 16 in system 15 starting at T+ 5571.864
+Generation 16 in system 15 complete at T+ 5591.446
+
+Sampling Latin-Hypercube array space (1)
+0.16810832318290667 0.5427671345766469 0.027950849718747374
+Generation 0 in system 16 starting at T+ 5611.429
+Generation 0 in system 16 complete at T+ 5631.075
+
+Generation 1 in system 16 starting at T+ 5631.075
+Generation 1 in system 16 complete at T+ 5650.417
+
+Generation 2 in system 16 starting at T+ 5650.417
+Generation 2 in system 16 complete at T+ 5669.893
+
+Generation 3 in system 16 starting at T+ 5669.893
+Generation 3 in system 16 complete at T+ 5689.433
+
+Generation 4 in system 16 starting at T+ 5689.433
+Generation 4 in system 16 complete at T+ 5708.922
+
+Generation 5 in system 16 starting at T+ 5708.923
+Generation 5 in system 16 complete at T+ 5728.187
+
+Generation 6 in system 16 starting at T+ 5728.187
+Generation 6 in system 16 complete at T+ 5747.465
+
+Generation 7 in system 16 starting at T+ 5747.465
+Generation 7 in system 16 complete at T+ 5766.732
+
+Generation 8 in system 16 starting at T+ 5766.732
+Generation 8 in system 16 complete at T+ 5785.887
+
+Generation 9 in system 16 starting at T+ 5785.887
+Generation 9 in system 16 complete at T+ 5805.140
+
+Generation 10 in system 16 starting at T+ 5805.140
+Generation 10 in system 16 complete at T+ 5824.615
+
+Generation 11 in system 16 starting at T+ 5824.615
+Generation 11 in system 16 complete at T+ 5844.085
+
+Generation 12 in system 16 starting at T+ 5844.086
+Generation 12 in system 16 complete at T+ 5863.546
+
+Generation 13 in system 16 starting at T+ 5863.546
+Generation 13 in system 16 complete at T+ 5882.883
+
+Generation 14 in system 16 starting at T+ 5882.883
+Generation 14 in system 16 complete at T+ 5902.430
+
+Generation 15 in system 16 starting at T+ 5902.430
+Generation 15 in system 16 complete at T+ 5921.563
+
+Generation 16 in system 16 starting at T+ 5921.563
+Generation 16 in system 16 complete at T+ 5941.009
+
+Sampling Latin-Hypercube array space (1)
+0.09704733308296495 0.4105188992613768 0.027950849718747374
+Generation 0 in system 17 starting at T+ 5960.999
+Generation 0 in system 17 complete at T+ 5980.542
+
+Generation 1 in system 17 starting at T+ 5980.542
+Generation 1 in system 17 complete at T+ 5999.985
+
+Generation 2 in system 17 starting at T+ 5999.985
+Generation 2 in system 17 complete at T+ 6019.468
+
+Generation 3 in system 17 starting at T+ 6019.469
+Generation 3 in system 17 complete at T+ 6038.724
+
+Generation 4 in system 17 starting at T+ 6038.724
+Generation 4 in system 17 complete at T+ 6058.093
+
+Generation 5 in system 17 starting at T+ 6058.093
+Generation 5 in system 17 complete at T+ 6077.639
+
+Generation 6 in system 17 starting at T+ 6077.639
+Generation 6 in system 17 complete at T+ 6096.907
+
+Generation 7 in system 17 starting at T+ 6096.907
+Generation 7 in system 17 complete at T+ 6116.529
+
+Generation 8 in system 17 starting at T+ 6116.529
+Generation 8 in system 17 complete at T+ 6135.876
+
+Generation 9 in system 17 starting at T+ 6135.876
+Generation 9 in system 17 complete at T+ 6155.205
+
+Generation 10 in system 17 starting at T+ 6155.205
+Generation 10 in system 17 complete at T+ 6174.720
+
+Generation 11 in system 17 starting at T+ 6174.720
+Generation 11 in system 17 complete at T+ 6194.263
+
+Generation 12 in system 17 starting at T+ 6194.263
+Generation 12 in system 17 complete at T+ 6213.592
+
+Generation 13 in system 17 starting at T+ 6213.592
+Generation 13 in system 17 complete at T+ 6233.097
+
+Generation 14 in system 17 starting at T+ 6233.097
+Generation 14 in system 17 complete at T+ 6252.251
+
+Generation 15 in system 17 starting at T+ 6252.251
+Generation 15 in system 17 complete at T+ 6271.519
+
+Generation 16 in system 17 starting at T+ 6271.519
+Generation 16 in system 17 complete at T+ 6290.757
+
+Sampling Latin-Hypercube array space (1)
+0.10849473864311655 0.3714193026668839 0.027950849718747374
+Generation 0 in system 18 starting at T+ 6310.542
+Generation 0 in system 18 complete at T+ 6330.002
+
+Generation 1 in system 18 starting at T+ 6330.002
+Generation 1 in system 18 complete at T+ 6349.343
+
+Generation 2 in system 18 starting at T+ 6349.344
+Generation 2 in system 18 complete at T+ 6368.629
+
+Generation 3 in system 18 starting at T+ 6368.629
+Generation 3 in system 18 complete at T+ 6387.894
+
+Generation 4 in system 18 starting at T+ 6387.895
+Generation 4 in system 18 complete at T+ 6406.946
+
+Generation 5 in system 18 starting at T+ 6406.946
+Generation 5 in system 18 complete at T+ 6426.232
+
+Generation 6 in system 18 starting at T+ 6426.232
+Generation 6 in system 18 complete at T+ 6445.962
+
+Generation 7 in system 18 starting at T+ 6445.963
+Generation 7 in system 18 complete at T+ 6465.120
+
+Generation 8 in system 18 starting at T+ 6465.120
+Generation 8 in system 18 complete at T+ 6484.502
+
+Generation 9 in system 18 starting at T+ 6484.502
+Generation 9 in system 18 complete at T+ 6503.955
+
+Generation 10 in system 18 starting at T+ 6503.955
+Generation 10 in system 18 complete at T+ 6523.536
+
+Generation 11 in system 18 starting at T+ 6523.536
+Generation 11 in system 18 complete at T+ 6543.174
+
+Generation 12 in system 18 starting at T+ 6543.174
+Generation 12 in system 18 complete at T+ 6562.451
+
+Generation 13 in system 18 starting at T+ 6562.451
+Generation 13 in system 18 complete at T+ 6582.276
+
+Generation 14 in system 18 starting at T+ 6582.276
+Generation 14 in system 18 complete at T+ 6601.637
+
+Generation 15 in system 18 starting at T+ 6601.637
+Generation 15 in system 18 complete at T+ 6620.980
+
+Generation 16 in system 18 starting at T+ 6620.980
+Generation 16 in system 18 complete at T+ 6640.210
+
+Sampling Latin-Hypercube array space (1)
+0.14663446025392776 0.5080215012153987 0.027950849718747374
+Generation 0 in system 19 starting at T+ 6659.955
+Generation 0 in system 19 complete at T+ 6679.293
+
+Generation 1 in system 19 starting at T+ 6679.293
+Generation 1 in system 19 complete at T+ 6698.639
+
+Generation 2 in system 19 starting at T+ 6698.639
+Generation 2 in system 19 complete at T+ 6718.113
+
+Generation 3 in system 19 starting at T+ 6718.113
+Generation 3 in system 19 complete at T+ 6737.589
+
+Generation 4 in system 19 starting at T+ 6737.589
+Generation 4 in system 19 complete at T+ 6756.931
+
+Generation 5 in system 19 starting at T+ 6756.931
+Generation 5 in system 19 complete at T+ 6776.279
+
+Generation 6 in system 19 starting at T+ 6776.279
+Generation 6 in system 19 complete at T+ 6795.849
+
+Generation 7 in system 19 starting at T+ 6795.849
+Generation 7 in system 19 complete at T+ 6815.271
+
+Generation 8 in system 19 starting at T+ 6815.271
+Generation 8 in system 19 complete at T+ 6834.743
+
+Generation 9 in system 19 starting at T+ 6834.743
+Generation 9 in system 19 complete at T+ 6853.974
+
+Generation 10 in system 19 starting at T+ 6853.975
+Generation 10 in system 19 complete at T+ 6873.239
+
+Generation 11 in system 19 starting at T+ 6873.239
+Generation 11 in system 19 complete at T+ 6892.590
+
+Generation 12 in system 19 starting at T+ 6892.590
+Generation 12 in system 19 complete at T+ 6912.120
+
+Generation 13 in system 19 starting at T+ 6912.120
+Generation 13 in system 19 complete at T+ 6931.512
+
+Generation 14 in system 19 starting at T+ 6931.512
+Generation 14 in system 19 complete at T+ 6950.860
+
+Generation 15 in system 19 starting at T+ 6950.860
+Generation 15 in system 19 complete at T+ 6970.088
+
+Generation 16 in system 19 starting at T+ 6970.088
+Generation 16 in system 19 complete at T+ 6989.784
+
+Sampling Latin-Hypercube array space (1)
+0.1707924290934348 0.6133069417960354 0.027950849718747374
+Generation 0 in system 20 starting at T+ 7009.482
+Generation 0 in system 20 complete at T+ 7028.818
+
+Generation 1 in system 20 starting at T+ 7028.818
+Generation 1 in system 20 complete at T+ 7048.264
+
+Generation 2 in system 20 starting at T+ 7048.264
+Generation 2 in system 20 complete at T+ 7067.820
+
+Generation 3 in system 20 starting at T+ 7067.820
+Generation 3 in system 20 complete at T+ 7087.089
+
+Generation 4 in system 20 starting at T+ 7087.089
+Generation 4 in system 20 complete at T+ 7106.542
+
+Generation 5 in system 20 starting at T+ 7106.542
+Generation 5 in system 20 complete at T+ 7125.973
+
+Generation 6 in system 20 starting at T+ 7125.974
+Generation 6 in system 20 complete at T+ 7145.362
+
+Generation 7 in system 20 starting at T+ 7145.362
+Generation 7 in system 20 complete at T+ 7164.827
+
+Generation 8 in system 20 starting at T+ 7164.827
+Generation 8 in system 20 complete at T+ 7184.065
+
+Generation 9 in system 20 starting at T+ 7184.065
+Generation 9 in system 20 complete at T+ 7203.807
+
+Generation 10 in system 20 starting at T+ 7203.807
+Generation 10 in system 20 complete at T+ 7223.235
+
+Generation 11 in system 20 starting at T+ 7223.235
+Generation 11 in system 20 complete at T+ 7242.760
+
+Generation 12 in system 20 starting at T+ 7242.760
+Generation 12 in system 20 complete at T+ 7261.953
+
+Generation 13 in system 20 starting at T+ 7261.953
+Generation 13 in system 20 complete at T+ 7281.291
+
+Generation 14 in system 20 starting at T+ 7281.291
+Generation 14 in system 20 complete at T+ 7300.747
+
+Generation 15 in system 20 starting at T+ 7300.747
+Generation 15 in system 20 complete at T+ 7320.200
+
+Generation 16 in system 20 starting at T+ 7320.200
+Generation 16 in system 20 complete at T+ 7339.645
+
+Sampling Latin-Hypercube array space (1)
+0.11174144688387665 0.34253624905076435 0.027950849718747374
+Generation 0 in system 21 starting at T+ 7359.248
+Generation 0 in system 21 complete at T+ 7378.485
+
+Generation 1 in system 21 starting at T+ 7378.485
+Generation 1 in system 21 complete at T+ 7397.688
+
+Generation 2 in system 21 starting at T+ 7397.688
+Generation 2 in system 21 complete at T+ 7417.035
+
+Generation 3 in system 21 starting at T+ 7417.035
+Generation 3 in system 21 complete at T+ 7436.098
+
+Generation 4 in system 21 starting at T+ 7436.098
+Generation 4 in system 21 complete at T+ 7455.567
+
+Generation 5 in system 21 starting at T+ 7455.567
+Generation 5 in system 21 complete at T+ 7474.794
+
+Generation 6 in system 21 starting at T+ 7474.794
+Generation 6 in system 21 complete at T+ 7494.072
+
+Generation 7 in system 21 starting at T+ 7494.072
+Generation 7 in system 21 complete at T+ 7513.413
+
+Generation 8 in system 21 starting at T+ 7513.413
+Generation 8 in system 21 complete at T+ 7532.655
+
+Generation 9 in system 21 starting at T+ 7532.655
+Generation 9 in system 21 complete at T+ 7552.200
+
+Generation 10 in system 21 starting at T+ 7552.201
+Generation 10 in system 21 complete at T+ 7571.340
+
+Generation 11 in system 21 starting at T+ 7571.340
+Generation 11 in system 21 complete at T+ 7590.612
+
+Generation 12 in system 21 starting at T+ 7590.612
+Generation 12 in system 21 complete at T+ 7610.064
+
+Generation 13 in system 21 starting at T+ 7610.064
+Generation 13 in system 21 complete at T+ 7629.529
+
+Generation 14 in system 21 starting at T+ 7629.529
+Generation 14 in system 21 complete at T+ 7648.956
+
+Generation 15 in system 21 starting at T+ 7648.956
+Generation 15 in system 21 complete at T+ 7668.226
+
+Generation 16 in system 21 starting at T+ 7668.226
+Generation 16 in system 21 complete at T+ 7687.592
+
+Sampling Latin-Hypercube array space (1)
+0.19066262961789496 0.6508175178350938 0.027950849718747374
+Generation 0 in system 22 starting at T+ 7707.670
+Generation 0 in system 22 complete at T+ 7726.997
+
+Generation 1 in system 22 starting at T+ 7726.997
+Generation 1 in system 22 complete at T+ 7746.361
+
+Generation 2 in system 22 starting at T+ 7746.361
+Generation 2 in system 22 complete at T+ 7765.637
+
+Generation 3 in system 22 starting at T+ 7765.637
+Generation 3 in system 22 complete at T+ 7784.965
+
+Generation 4 in system 22 starting at T+ 7784.966
+Generation 4 in system 22 complete at T+ 7804.436
+
+Generation 5 in system 22 starting at T+ 7804.436
+Generation 5 in system 22 complete at T+ 7823.819
+
+Generation 6 in system 22 starting at T+ 7823.819
+Generation 6 in system 22 complete at T+ 7843.456
+
+Generation 7 in system 22 starting at T+ 7843.456
+Generation 7 in system 22 complete at T+ 7862.841
+
+Generation 8 in system 22 starting at T+ 7862.841
+Generation 8 in system 22 complete at T+ 7882.234
+
+Generation 9 in system 22 starting at T+ 7882.234
+Generation 9 in system 22 complete at T+ 7901.580
+
+Generation 10 in system 22 starting at T+ 7901.580
+Generation 10 in system 22 complete at T+ 7921.117
+
+Generation 11 in system 22 starting at T+ 7921.117
+Generation 11 in system 22 complete at T+ 7940.726
+
+Generation 12 in system 22 starting at T+ 7940.727
+Generation 12 in system 22 complete at T+ 7960.163
+
+Generation 13 in system 22 starting at T+ 7960.164
+Generation 13 in system 22 complete at T+ 7979.614
+
+Generation 14 in system 22 starting at T+ 7979.614
+Generation 14 in system 22 complete at T+ 7999.182
+
+Generation 15 in system 22 starting at T+ 7999.182
+Generation 15 in system 22 complete at T+ 8018.740
+
+Generation 16 in system 22 starting at T+ 8018.740
+Generation 16 in system 22 complete at T+ 8038.099
+
+Sampling Latin-Hypercube array space (1)
+0.12162831807238456 0.4407102298881274 0.027950849718747374
+Generation 0 in system 23 starting at T+ 8057.519
+Generation 0 in system 23 complete at T+ 8076.986
+
+Generation 1 in system 23 starting at T+ 8076.987
+Generation 1 in system 23 complete at T+ 8096.367
+
+Generation 2 in system 23 starting at T+ 8096.367
+Generation 2 in system 23 complete at T+ 8115.805
+
+Generation 3 in system 23 starting at T+ 8115.805
+Generation 3 in system 23 complete at T+ 8135.131
+
+Generation 4 in system 23 starting at T+ 8135.131
+Generation 4 in system 23 complete at T+ 8154.500
+
+Generation 5 in system 23 starting at T+ 8154.500
+Generation 5 in system 23 complete at T+ 8174.071
+
+Generation 6 in system 23 starting at T+ 8174.071
+Generation 6 in system 23 complete at T+ 8193.214
+
+Generation 7 in system 23 starting at T+ 8193.214
+Generation 7 in system 23 complete at T+ 8212.450
+
+Generation 8 in system 23 starting at T+ 8212.451
+Generation 8 in system 23 complete at T+ 8231.890
+
+Generation 9 in system 23 starting at T+ 8231.890
+Generation 9 in system 23 complete at T+ 8251.237
+
+Generation 10 in system 23 starting at T+ 8251.237
+Generation 10 in system 23 complete at T+ 8270.773
+
+Generation 11 in system 23 starting at T+ 8270.773
+Generation 11 in system 23 complete at T+ 8290.462
+
+Generation 12 in system 23 starting at T+ 8290.462
+Generation 12 in system 23 complete at T+ 8310.103
+
+Generation 13 in system 23 starting at T+ 8310.103
+Generation 13 in system 23 complete at T+ 8329.472
+
+Generation 14 in system 23 starting at T+ 8329.472
+Generation 14 in system 23 complete at T+ 8348.806
+
+Generation 15 in system 23 starting at T+ 8348.806
+Generation 15 in system 23 complete at T+ 8368.472
+
+Generation 16 in system 23 starting at T+ 8368.472
+Generation 16 in system 23 complete at T+ 8388.125
+
+Sampling Latin-Hypercube array space (1)
+0.16058557459388173 0.45855694010296383 0.027950849718747374
+Generation 0 in system 24 starting at T+ 8407.666
+Generation 0 in system 24 complete at T+ 8427.192
+
+Generation 1 in system 24 starting at T+ 8427.192
+Generation 1 in system 24 complete at T+ 8446.573
+
+Generation 2 in system 24 starting at T+ 8446.573
+Generation 2 in system 24 complete at T+ 8465.930
+
+Generation 3 in system 24 starting at T+ 8465.930
+Generation 3 in system 24 complete at T+ 8485.396
+
+Generation 4 in system 24 starting at T+ 8485.396
+Generation 4 in system 24 complete at T+ 8504.865
+
+Generation 5 in system 24 starting at T+ 8504.865
+Generation 5 in system 24 complete at T+ 8524.053
+
+Generation 6 in system 24 starting at T+ 8524.053
+Generation 6 in system 24 complete at T+ 8543.181
+
+Generation 7 in system 24 starting at T+ 8543.182
+Generation 7 in system 24 complete at T+ 8562.576
+
+Generation 8 in system 24 starting at T+ 8562.576
+Generation 8 in system 24 complete at T+ 8582.050
+
+Generation 9 in system 24 starting at T+ 8582.050
+Generation 9 in system 24 complete at T+ 8601.689
+
+Generation 10 in system 24 starting at T+ 8601.689
+Generation 10 in system 24 complete at T+ 8621.373
+
+Generation 11 in system 24 starting at T+ 8621.373
+Generation 11 in system 24 complete at T+ 8640.825
+
+Generation 12 in system 24 starting at T+ 8640.825
+Generation 12 in system 24 complete at T+ 8660.115
+
+Generation 13 in system 24 starting at T+ 8660.115
+Generation 13 in system 24 complete at T+ 8679.369
+
+Generation 14 in system 24 starting at T+ 8679.369
+Generation 14 in system 24 complete at T+ 8698.821
+
+Generation 15 in system 24 starting at T+ 8698.821
+Generation 15 in system 24 complete at T+ 8718.254
+
+Generation 16 in system 24 starting at T+ 8718.255
+Generation 16 in system 24 complete at T+ 8737.515
+
+Program Complete.
+
+Load Case Summary:
+----------------------
+Load Case 0
+  X Force:	-1.65e+03
+  Y Force:	-1.94e+05
+Load Case 1
+  X Force:	2.85e+04
+  Y Force:	-2.16e+05
+Load Case 2
+  X Force:	7.25e+02
+  Y Force:	-1.91e+05
+Load Case 3
+  X Force:	4.27e+03
+  Y Force:	-1.94e+05
+Load Case 4
+  X Force:	2.09e+04
+  Y Force:	-2.02e+05
+Load Case 5
+  X Force:	-2.58e+04
+  Y Force:	-1.89e+05
+Load Case 6
+  X Force:	2.04e+03
+  Y Force:	-1.93e+05
+Load Case 7
+  X Force:	1.54e+04
+  Y Force:	-1.97e+05
+Load Case 8
+  X Force:	1.46e+04
+  Y Force:	-1.91e+05
+Load Case 9
+  X Force:	1.45e+04
+  Y Force:	-1.91e+05
+Load Case 10
+  X Force:	-1.50e+04
+  Y Force:	-2.10e+05
+Load Case 11
+  X Force:	1.30e+04
+  Y Force:	-1.93e+05
+Load Case 12
+  X Force:	1.19e+02
+  Y Force:	-2.01e+05
+Load Case 13
+  X Force:	-6.67e+03
+  Y Force:	-1.93e+05
+Load Case 14
+  X Force:	1.59e+04
+  Y Force:	-2.00e+05
+Load Case 15
+  X Force:	-8.98e+03
+  Y Force:	-1.99e+05
+Load Case 16
+  X Force:	1.20e+04
+  Y Force:	-1.96e+05
+Load Case 17
+  X Force:	-7.24e+02
+  Y Force:	-1.96e+05
+Load Case 18
+  X Force:	3.83e+04
+  Y Force:	-1.88e+05
+Load Case 19
+  X Force:	3.46e+04
+  Y Force:	-1.95e+05
+Load Case 20
+  X Force:	3.30e+04
+  Y Force:	-2.04e+05
+Load Case 21
+  X Force:	-5.08e+03
+  Y Force:	-2.04e+05
+Load Case 22
+  X Force:	3.31e+04
+  Y Force:	-1.92e+05
+Load Case 23
+  X Force:	-1.77e+04
+  Y Force:	-1.96e+05
+Load Case 24
+  X Force:	-4.85e+03
+  Y Force:	-2.06e+05
+
+Summary of valid designs:
+--------------------------
+Parent Load Case,Top Flange Width,Bottom Flange Width,Web Thickness,Doubler Thickness at Hoist Pin,Doubler Thickness at Load Pin,Fitness 1, Fitness 2
+0,196.196,238.495,17.894,32.068,122.72,75.3212141670825,385.0177252
+2,212.903,233.733,18.028,27.453,184.538,72.97120804049663,413.3131933
+2,130.786,239.166,42.033,24.93,118.138,58.741061154975256,530.9276554
+3,111.472,228.83,23.545,29.255,41.03,80.90884457619944,352.3362831
+4,78.553,244.856,68.939,67.863,203.348,48.071226210067536,781.9427591
+5,9.233,224.536,103.361,41.51,115.829,41.16010929814129,944.1913325
+5,61.752,150.76,21.663,28.219,35.563,107.74317522360742,283.7839998
+6,238.215,208.036,57.469,65.061,236.733,48.75219929882564,757.9970814
+7,218.927,248.639,19.067,30.017,238.979,70.69724233418687,454.4704347
+7,231.66,245.967,74.31,84.323,144.349,44.088552005110245,871.9465592
+8,115.387,191.202,51.482,95.676,188.118,56.8027806928379,660.7439257
+8,97.613,236.443,98.833,50.915,99.909,41.051959075924174,951.5390433
+11,67.197,227.432,85.794,54.263,95.015,46.10877429076757,839.2683613
+11,91.587,255.03,98.591,74.331,136.942,39.21608164416141,988.8063176
+11,201.384,211.146,62.053,72.464,165.169,49.2406251235912,754.0911263
+12,106.143,246.724,96.2,46.847,180.653,40.34023210701685,970.4453843
+12,182.514,239.526,91.69,38.44,166.629,40.940793554139965,952.2319028
+13,62.208,129.097,22.12,22.923,35.153,117.95146072439115,274.318921
+13,219.516,246.508,47.023,44.833,214.989,50.9564790591253,663.2250301
+15,236.696,245.392,35.828,23.168,99.292,61.54080201295191,520.5782616
+16,93.266,186.468,16.423,20.836,126.832,96.20000768498684,304.6348814
+16,136.649,203.085,39.35,26.632,144.851,64.82880582225248,511.4320634
+16,78.254,243.559,60.134,42.531,170.557,50.86550001144975,682.1024868
+16,53.262,238.343,69.145,94.239,224.036,47.076793701991406,800.1024299
+18,1.72,213.492,91.354,62.696,216.3,41.440316294160695,906.493139
+18,46.269,200.365,24.106,20.156,66.847,85.9891464328342,322.5738162
+18,171.216,190.008,30.221,19.063,234.219,67.85730030967575,484.0076121
+19,155.298,235.957,52.813,70.096,57.602,58.12102213082854,629.5246452
+19,145.627,204.172,28.536,31.343,158.165,72.44675669951084,444.387531
+19,231.695,188.299,8.604,50.656,23.371,108.2908621082467,282.6371622
+22,158.571,235.695,17.301,26.891,104.844,77.64700293959271,352.7252781
+23,71.473,245.025,15.88,21.721,201.183,83.68357938508282,347.4939696
+
+Command being timed: "python -um pystruct /tmp/test_open.dat -S2 -i80 -g17 --csv"
+	User time (seconds): 63488.25
+	System time (seconds): 993.68
+	Percent of CPU this job got: 729%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:27:13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 173024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 108
+	Minor (reclaiming a frame) page faults: 35163537
+	Voluntary context switches: 431006
+	Involuntary context switches: 38231115
+	Swaps: 0
+	File system inputs: 26016
+	File system outputs: 568
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
