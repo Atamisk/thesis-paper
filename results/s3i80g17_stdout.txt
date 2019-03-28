@@ -1,0 +1,104 @@
+LOCATION RUN SELECTED
+Analysis Started.
+Sampling Latin-Hypercube array space (1)
+0.11669066341527437 0.3414259009873466 0.027950849718747374
+Generation 0 in system 0 starting at T+ 43.154
+Generation 0 in system 0 complete at T+ 87.179
+
+Generation 1 in system 0 starting at T+ 87.197
+Generation 1 in system 0 complete at T+ 131.270
+
+Generation 2 in system 0 starting at T+ 131.292
+Generation 2 in system 0 complete at T+ 175.364
+
+Generation 3 in system 0 starting at T+ 175.387
+Generation 3 in system 0 complete at T+ 219.586
+
+Generation 4 in system 0 starting at T+ 219.607
+Generation 4 in system 0 complete at T+ 263.907
+
+Generation 5 in system 0 starting at T+ 263.928
+Generation 5 in system 0 complete at T+ 307.795
+
+Generation 6 in system 0 starting at T+ 307.818
+Generation 6 in system 0 complete at T+ 352.355
+
+Generation 7 in system 0 starting at T+ 352.378
+Generation 7 in system 0 complete at T+ 396.499
+
+Generation 8 in system 0 starting at T+ 396.521
+Generation 8 in system 0 complete at T+ 440.814
+
+Generation 9 in system 0 starting at T+ 440.836
+Generation 9 in system 0 complete at T+ 485.146
+
+Generation 10 in system 0 starting at T+ 485.169
+Generation 10 in system 0 complete at T+ 529.353
+
+Generation 11 in system 0 starting at T+ 529.376
+Generation 11 in system 0 complete at T+ 573.578
+
+Generation 12 in system 0 starting at T+ 573.599
+Generation 12 in system 0 complete at T+ 617.811
+
+Generation 13 in system 0 starting at T+ 617.832
+Generation 13 in system 0 complete at T+ 662.177
+
+Generation 14 in system 0 starting at T+ 662.199
+Generation 14 in system 0 complete at T+ 706.104
+
+Generation 15 in system 0 starting at T+ 706.127
+Generation 15 in system 0 complete at T+ 750.200
+
+Generation 16 in system 0 starting at T+ 750.222
+Generation 16 in system 0 complete at T+ 794.469
+
+Program Complete.
+
+Load Case Summary:
+----------------------
+Load Case 0
+  X Force:	0.00e+00
+  Y Force:	-1.47e+05
+
+Summary of valid designs:
+--------------------------
+Parent Load Case,Top Flange Width,Bottom Flange Width,Web Thickness,Doubler Thickness at Hoist Pin,Doubler Thickness at Load Pin,Fitness 1, Fitness 2
+1,132.615,195.453,12.094,228.786,78.996,5.074411330963669,434.8181466
+1,234.985,237.894,12.628,176.612,181.745,5.616328239092309,499.5480629
+1,201.08,155.332,53.342,165.971,179.628,6.194983132797532,746.1855432
+1,5.205,223.216,110.249,47.761,99.171,6.643854584543592,991.1266145
+1,63.74,81.368,20.655,130.568,58.359,3.945690464394995,339.0743246
+1,123.3,45.627,28.027,69.381,16.511,3.559374092988686,337.8069196
+1,75.104,65.303,16.675,72.05,88.222,3.439843815625442,274.295782
+1,6.019,165.234,8.989,36.462,176.571,3.295759149662358,238.9577195
+1,20.029,244.959,85.234,97.971,196.738,6.610867729730326,900.4270732
+1,96.095,102.518,70.149,40.664,99.861,6.070993425739033,675.6620075
+1,211.914,214.911,28.164,105.986,224.049,5.961165432086013,559.0064701
+1,55.026,85.18,96.127,75.515,118.852,6.34549384530395,880.6908146
+1,140.408,116.002,64.755,95.685,169.004,6.189890953690075,731.1808663
+1,107.874,215.239,60.817,234.468,65.07,6.2240929447090245,793.7121556
+1,218.698,118.279,52.875,16.585,20.408,5.636682853511404,550.4518761
+     Command being timed: "python -um pystruct /tmp/test_open.dat -S3 -i80 -g17 --csv"
+        User time (seconds): 5754.29
+        System time (seconds): 94.74
+        Percent of CPU this job got: 735%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 13:15.42
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 291328
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 15
+        Minor (reclaiming a frame) page faults: 5526760
+        Voluntary context switches: 57020
+        Involuntary context switches: 827323
+        Swaps: 0
+        File system inputs: 3960
+        File system outputs: 32
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
