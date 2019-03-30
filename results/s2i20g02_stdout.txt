@@ -1,0 +1,331 @@
+DWU Run selected.
+Sampling Latin-Hypercube array space (1)
+0.0023434876648458437 0.007168139385332923 0.0014142135623730952
+Of 1000 generated systems, 25 meet the minimum force criterion.
+Analysis Started.
+Sampling Latin-Hypercube array space (1)
+0.3417099348374628 1.184964756134359 0.1118033988749895
+Generation 0 in system 0 starting at T+ 5.617
+Generation 0 in system 0 complete at T+ 11.009
+
+Generation 1 in system 0 starting at T+ 11.009
+Generation 1 in system 0 complete at T+ 16.511
+
+Sampling Latin-Hypercube array space (1)
+0.168164522325618 0.46248192334579363 0.1118033988749895
+Generation 0 in system 1 starting at T+ 22.084
+Generation 0 in system 1 complete at T+ 27.380
+
+Generation 1 in system 1 starting at T+ 27.380
+Generation 1 in system 1 complete at T+ 32.775
+
+Sampling Latin-Hypercube array space (1)
+0.3371548320203222 0.9231198919416412 0.1118033988749895
+Generation 0 in system 2 starting at T+ 38.387
+Generation 0 in system 2 complete at T+ 43.786
+
+Generation 1 in system 2 starting at T+ 43.786
+Generation 1 in system 2 complete at T+ 49.186
+
+Sampling Latin-Hypercube array space (1)
+0.2541921048964877 0.9836882499358999 0.1118033988749895
+Generation 0 in system 3 starting at T+ 54.696
+Generation 0 in system 3 complete at T+ 60.098
+
+Generation 1 in system 3 starting at T+ 60.098
+Generation 1 in system 3 complete at T+ 65.508
+
+Sampling Latin-Hypercube array space (1)
+0.3006937076273649 0.7937171981621998 0.1118033988749895
+Generation 0 in system 4 starting at T+ 71.038
+Generation 0 in system 4 complete at T+ 76.431
+
+Generation 1 in system 4 starting at T+ 76.432
+Generation 1 in system 4 complete at T+ 81.841
+
+Sampling Latin-Hypercube array space (1)
+0.20949661203960523 0.7524498651683454 0.1118033988749895
+Generation 0 in system 5 starting at T+ 87.463
+Generation 0 in system 5 complete at T+ 92.859
+
+Generation 1 in system 5 starting at T+ 92.860
+Generation 1 in system 5 complete at T+ 98.267
+
+Sampling Latin-Hypercube array space (1)
+0.28671274987784984 0.8024937985497473 0.1118033988749895
+Generation 0 in system 6 starting at T+ 103.892
+Generation 0 in system 6 complete at T+ 109.390
+
+Generation 1 in system 6 starting at T+ 109.390
+Generation 1 in system 6 complete at T+ 114.781
+
+Sampling Latin-Hypercube array space (1)
+0.27811557997308073 0.8212909629577915 0.1118033988749895
+Generation 0 in system 7 starting at T+ 120.420
+Generation 0 in system 7 complete at T+ 125.833
+
+Generation 1 in system 7 starting at T+ 125.833
+Generation 1 in system 7 complete at T+ 131.350
+
+Sampling Latin-Hypercube array space (1)
+0.3215094353062154 1.024599685043902 0.1118033988749895
+Generation 0 in system 8 starting at T+ 137.202
+Generation 0 in system 8 complete at T+ 142.606
+
+Generation 1 in system 8 starting at T+ 142.606
+Generation 1 in system 8 complete at T+ 148.010
+
+Sampling Latin-Hypercube array space (1)
+0.23357642784113541 1.0129826073432422 0.1118033988749895
+Generation 0 in system 9 starting at T+ 153.633
+Generation 0 in system 9 complete at T+ 159.035
+
+Generation 1 in system 9 starting at T+ 159.035
+Generation 1 in system 9 complete at T+ 164.549
+
+Sampling Latin-Hypercube array space (1)
+0.44517504979088146 1.2662703476538164 0.1118033988749895
+Generation 0 in system 10 starting at T+ 169.961
+Generation 0 in system 10 complete at T+ 175.563
+
+Generation 1 in system 10 starting at T+ 175.563
+Generation 1 in system 10 complete at T+ 181.061
+
+Sampling Latin-Hypercube array space (1)
+0.29437215182715204 0.795886328856034 0.1118033988749895
+Generation 0 in system 11 starting at T+ 186.571
+Generation 0 in system 11 complete at T+ 191.873
+
+Generation 1 in system 11 starting at T+ 191.873
+Generation 1 in system 11 complete at T+ 197.270
+
+Sampling Latin-Hypercube array space (1)
+0.2454884796343498 0.9211845991735749 0.1118033988749895
+Generation 0 in system 12 starting at T+ 202.788
+Generation 0 in system 12 complete at T+ 208.182
+
+Generation 1 in system 12 starting at T+ 208.182
+Generation 1 in system 12 complete at T+ 213.676
+
+Sampling Latin-Hypercube array space (1)
+0.30941099745847683 0.919570330502848 0.1118033988749895
+Generation 0 in system 13 starting at T+ 219.186
+Generation 0 in system 13 complete at T+ 224.786
+
+Generation 1 in system 13 starting at T+ 224.786
+Generation 1 in system 13 complete at T+ 230.187
+
+Sampling Latin-Hypercube array space (1)
+0.3237875000529466 0.9516338940749254 0.1118033988749895
+Generation 0 in system 14 starting at T+ 235.797
+Generation 0 in system 14 complete at T+ 241.297
+
+Generation 1 in system 14 starting at T+ 241.297
+Generation 1 in system 14 complete at T+ 246.598
+
+Sampling Latin-Hypercube array space (1)
+0.257802887826876 0.9131875251863841 0.1118033988749895
+Generation 0 in system 15 starting at T+ 252.117
+Generation 0 in system 15 complete at T+ 257.608
+
+Generation 1 in system 15 starting at T+ 257.608
+Generation 1 in system 15 complete at T+ 263.006
+
+Sampling Latin-Hypercube array space (1)
+0.2669933595403888 0.7705611331063302 0.1118033988749895
+Generation 0 in system 16 starting at T+ 268.609
+Generation 0 in system 16 complete at T+ 274.112
+
+Generation 1 in system 16 starting at T+ 274.112
+Generation 1 in system 16 complete at T+ 279.610
+
+Sampling Latin-Hypercube array space (1)
+0.2858251709466051 0.7783090638260196 0.1118033988749895
+Generation 0 in system 17 starting at T+ 285.531
+Generation 0 in system 17 complete at T+ 290.936
+
+Generation 1 in system 17 starting at T+ 290.936
+Generation 1 in system 17 complete at T+ 296.544
+
+Sampling Latin-Hypercube array space (1)
+0.2788718027719251 0.9480606153196757 0.1118033988749895
+Generation 0 in system 18 starting at T+ 302.057
+Generation 0 in system 18 complete at T+ 307.444
+
+Generation 1 in system 18 starting at T+ 307.444
+Generation 1 in system 18 complete at T+ 312.950
+
+Sampling Latin-Hypercube array space (1)
+0.27163480242405214 0.7246125168252266 0.1118033988749895
+Generation 0 in system 19 starting at T+ 318.360
+Generation 0 in system 19 complete at T+ 323.759
+
+Generation 1 in system 19 starting at T+ 323.759
+Generation 1 in system 19 complete at T+ 329.057
+
+Sampling Latin-Hypercube array space (1)
+0.36065757514716673 1.099034585829805 0.1118033988749895
+Generation 0 in system 20 starting at T+ 334.600
+Generation 0 in system 20 complete at T+ 339.993
+
+Generation 1 in system 20 starting at T+ 339.993
+Generation 1 in system 20 complete at T+ 345.389
+
+/usr/lib/python3.7/site-packages/matplotlib/pyplot.py:514: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+Sampling Latin-Hypercube array space (1)
+0.2111693404501514 0.7795752438879596 0.1118033988749895
+Generation 0 in system 21 starting at T+ 351.011
+Generation 0 in system 21 complete at T+ 356.517
+
+Generation 1 in system 21 starting at T+ 356.517
+Generation 1 in system 21 complete at T+ 362.018
+
+Sampling Latin-Hypercube array space (1)
+0.2633376964711333 1.0867909870833985 0.1118033988749895
+Generation 0 in system 22 starting at T+ 367.658
+Generation 0 in system 22 complete at T+ 373.271
+
+Generation 1 in system 22 starting at T+ 373.271
+Generation 1 in system 22 complete at T+ 379.018
+
+Sampling Latin-Hypercube array space (1)
+0.22379360454239738 0.9261869447570219 0.1118033988749895
+Generation 0 in system 23 starting at T+ 384.660
+Generation 0 in system 23 complete at T+ 390.069
+
+Generation 1 in system 23 starting at T+ 390.069
+Generation 1 in system 23 complete at T+ 395.465
+
+Sampling Latin-Hypercube array space (1)
+0.25145157468734547 1.1337652966398166 0.1118033988749895
+Generation 0 in system 24 starting at T+ 401.072
+Generation 0 in system 24 complete at T+ 406.478
+
+Generation 1 in system 24 starting at T+ 406.478
+Generation 1 in system 24 complete at T+ 411.871
+
+Program Complete.
+
+Load Case Summary:
+----------------------
+Load Case 0
+  X Force:	3.60e+02
+  Y Force:	-2.10e+05
+Load Case 1
+  X Force:	-1.11e+04
+  Y Force:	-1.96e+05
+Load Case 2
+  X Force:	1.99e+04
+  Y Force:	-2.00e+05
+Load Case 3
+  X Force:	7.46e+03
+  Y Force:	-1.93e+05
+Load Case 4
+  X Force:	1.13e+04
+  Y Force:	-1.96e+05
+Load Case 5
+  X Force:	-2.38e+04
+  Y Force:	-1.89e+05
+Load Case 6
+  X Force:	-1.28e+04
+  Y Force:	-1.92e+05
+Load Case 7
+  X Force:	7.00e+03
+  Y Force:	-1.91e+05
+Load Case 8
+  X Force:	7.59e+02
+  Y Force:	-1.94e+05
+Load Case 9
+  X Force:	3.34e+03
+  Y Force:	-1.98e+05
+Load Case 10
+  X Force:	1.56e+04
+  Y Force:	-1.95e+05
+Load Case 11
+  X Force:	1.15e+04
+  Y Force:	-2.08e+05
+Load Case 12
+  X Force:	-3.19e+04
+  Y Force:	-1.91e+05
+Load Case 13
+  X Force:	-4.17e+04
+  Y Force:	-1.91e+05
+Load Case 14
+  X Force:	-1.69e+04
+  Y Force:	-1.90e+05
+Load Case 15
+  X Force:	-2.02e+03
+  Y Force:	-2.15e+05
+Load Case 16
+  X Force:	2.80e+03
+  Y Force:	-1.99e+05
+Load Case 17
+  X Force:	3.59e+03
+  Y Force:	-2.04e+05
+Load Case 18
+  X Force:	-2.38e+04
+  Y Force:	-1.93e+05
+Load Case 19
+  X Force:	6.71e+03
+  Y Force:	-1.99e+05
+Load Case 20
+  X Force:	-6.15e+04
+  Y Force:	-1.93e+05
+Load Case 21
+  X Force:	-4.52e+03
+  Y Force:	-1.92e+05
+Load Case 22
+  X Force:	1.24e+04
+  Y Force:	-2.00e+05
+Load Case 23
+  X Force:	-2.93e+04
+  Y Force:	-2.04e+05
+Load Case 24
+  X Force:	-1.05e+04
+  Y Force:	-1.92e+05
+
+Summary of valid designs:
+--------------------------
+Parent Load Case,Top Flange Width,Bottom Flange Width,Web Thickness,Doubler Thickness at Hoist Pin,Doubler Thickness at Load Pin,Fitness 1, Fitness 2
+5,129.488,178.7,50.012,64.189,66.968,65.1855958588575,574.5838166
+6,49.705,155.799,78.425,32.802,132.61,52.47421560225939,747.6430989
+6,151.264,247.119,22.268,102.256,62.329,73.89310551243811,432.4797383
+6,99.534,146.74,64.76,52.983,244.566,53.820177710733084,725.5576361
+7,142.734,225.029,57.877,144.821,224.451,49.16624775450237,786.8192321
+8,74.907,224.589,54.305,48.5,59.581,61.75577756386199,587.5814526
+10,215.954,234.061,88.335,55.669,231.921,38.57764068605751,979.6373864
+11,140.513,241.439,18.337,53.885,203.955,80.98988493585104,418.5117141
+12,178.503,194.828,43.687,147.502,187.016,59.19509644768871,669.831752
+12,206.098,236.439,75.92,91.15,157.782,42.9241179654908,880.8244976
+12,160.811,167.923,69.169,134.097,230.611,48.59771145899399,849.2690176
+13,81.25,202.425,42.572,109.538,81.68,67.26002640528559,551.1801447
+17,23.721,163.915,49.492,31.35,127.582,72.36688812363302,522.0371897
+18,140.976,128.319,39.838,34.495,234.181,72.14917113503992,530.6095351
+18,102.296,214.843,13.829,47.973,164.341,89.93277304019665,337.5319076
+18,49.437,171.257,79.644,147.498,193.402,48.32064113627247,878.4725853
+19,54.821,251.784,24.932,117.632,33.267,86.71501958344528,415.1352079
+22,52.03,186.161,10.735,57.554,199.908,118.28396982831147,305.2867264
+	Command being timed: "python -um pystruct /tmp/test_open.dat -S2 -i20 -g2 --csv"
+	User time (seconds): 2618.86
+	System time (seconds): 41.59
+	Percent of CPU this job got: 583%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:35.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 170496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1500819
+	Voluntary context switches: 25946
+	Involuntary context switches: 838585
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,382 @@
+LOCATION RUN SELECTED
+Analysis Started.
+Sampling Latin-Hypercube array space (1)
+0.1197384824594858 0.5021529185088492 0.027950849718747374
+Generation 0 in system 0 starting at T+ 44.608
+Generation 0 in system 0 complete at T+ 88.663
+
+Generation 1 in system 0 starting at T+ 88.682
+Generation 1 in system 0 complete at T+ 133.004
+
+Generation 2 in system 0 starting at T+ 133.026
+Generation 2 in system 0 complete at T+ 177.423
+
+Generation 3 in system 0 starting at T+ 177.445
+Generation 3 in system 0 complete at T+ 221.827
+
+Generation 4 in system 0 starting at T+ 221.848
+Generation 4 in system 0 complete at T+ 266.122
+
+Generation 5 in system 0 starting at T+ 266.144
+Generation 5 in system 0 complete at T+ 310.487
+
+Generation 6 in system 0 starting at T+ 310.509
+Generation 6 in system 0 complete at T+ 354.615
+
+Generation 7 in system 0 starting at T+ 354.637
+Generation 7 in system 0 complete at T+ 399.095
+
+Generation 8 in system 0 starting at T+ 399.116
+Generation 8 in system 0 complete at T+ 443.375
+
+Generation 9 in system 0 starting at T+ 443.396
+Generation 9 in system 0 complete at T+ 487.767
+
+Generation 10 in system 0 starting at T+ 487.789
+Generation 10 in system 0 complete at T+ 532.138
+
+Generation 11 in system 0 starting at T+ 532.160
+Generation 11 in system 0 complete at T+ 576.628
+
+Generation 12 in system 0 starting at T+ 576.649
+Generation 12 in system 0 complete at T+ 620.929
+
+Generation 13 in system 0 starting at T+ 620.951
+Generation 13 in system 0 complete at T+ 665.571
+
+Generation 14 in system 0 starting at T+ 665.593
+Generation 14 in system 0 complete at T+ 709.968
+
+Generation 15 in system 0 starting at T+ 709.990
+Generation 15 in system 0 complete at T+ 754.411
+
+Generation 16 in system 0 starting at T+ 754.432
+Generation 16 in system 0 complete at T+ 798.851
+
+Generation 17 in system 0 starting at T+ 798.873
+Generation 17 in system 0 complete at T+ 843.472
+
+Generation 18 in system 0 starting at T+ 843.496
+Generation 18 in system 0 complete at T+ 887.671
+
+Generation 19 in system 0 starting at T+ 887.693
+Generation 19 in system 0 complete at T+ 932.123
+
+Generation 20 in system 0 starting at T+ 932.147
+Generation 20 in system 0 complete at T+ 976.379
+
+Generation 21 in system 0 starting at T+ 976.400
+Generation 21 in system 0 complete at T+ 1020.994
+
+Generation 22 in system 0 starting at T+ 1021.015
+Generation 22 in system 0 complete at T+ 1065.392
+
+Generation 23 in system 0 starting at T+ 1065.413
+Generation 23 in system 0 complete at T+ 1109.793
+
+Generation 24 in system 0 starting at T+ 1109.814
+Generation 24 in system 0 complete at T+ 1154.054
+
+Generation 25 in system 0 starting at T+ 1154.075
+Generation 25 in system 0 complete at T+ 1198.505
+
+Generation 26 in system 0 starting at T+ 1198.528
+Generation 26 in system 0 complete at T+ 1242.735
+
+Generation 27 in system 0 starting at T+ 1242.759
+Generation 27 in system 0 complete at T+ 1287.219
+
+Generation 28 in system 0 starting at T+ 1287.239
+Generation 28 in system 0 complete at T+ 1331.711
+
+Generation 29 in system 0 starting at T+ 1331.733
+Generation 29 in system 0 complete at T+ 1376.126
+
+Generation 30 in system 0 starting at T+ 1376.148
+Generation 30 in system 0 complete at T+ 1420.332
+
+Generation 31 in system 0 starting at T+ 1420.353
+Generation 31 in system 0 complete at T+ 1464.689
+
+Generation 32 in system 0 starting at T+ 1464.710
+Generation 32 in system 0 complete at T+ 1509.049
+
+Generation 33 in system 0 starting at T+ 1509.070
+Generation 33 in system 0 complete at T+ 1553.538
+
+Generation 34 in system 0 starting at T+ 1553.559
+Generation 34 in system 0 complete at T+ 1597.632
+
+Generation 35 in system 0 starting at T+ 1597.652
+Generation 35 in system 0 complete at T+ 1642.187
+
+Generation 36 in system 0 starting at T+ 1642.208
+Generation 36 in system 0 complete at T+ 1686.501
+
+Generation 37 in system 0 starting at T+ 1686.522
+Generation 37 in system 0 complete at T+ 1730.937
+
+Generation 38 in system 0 starting at T+ 1730.959
+Generation 38 in system 0 complete at T+ 1775.214
+
+Generation 39 in system 0 starting at T+ 1775.235
+Generation 39 in system 0 complete at T+ 1819.811
+
+Generation 40 in system 0 starting at T+ 1819.832
+Generation 40 in system 0 complete at T+ 1864.245
+
+Generation 41 in system 0 starting at T+ 1864.267
+Generation 41 in system 0 complete at T+ 1908.836
+
+Generation 42 in system 0 starting at T+ 1908.858
+Generation 42 in system 0 complete at T+ 1953.265
+
+Generation 43 in system 0 starting at T+ 1953.287
+Generation 43 in system 0 complete at T+ 1997.861
+
+Generation 44 in system 0 starting at T+ 1997.883
+Generation 44 in system 0 complete at T+ 2042.263
+
+Generation 45 in system 0 starting at T+ 2042.284
+Generation 45 in system 0 complete at T+ 2086.769
+
+Generation 46 in system 0 starting at T+ 2086.791
+Generation 46 in system 0 complete at T+ 2131.118
+
+Generation 47 in system 0 starting at T+ 2131.139
+Generation 47 in system 0 complete at T+ 2175.462
+
+Generation 48 in system 0 starting at T+ 2175.483
+Generation 48 in system 0 complete at T+ 2219.795
+
+Generation 49 in system 0 starting at T+ 2219.817
+Generation 49 in system 0 complete at T+ 2264.340
+
+Generation 50 in system 0 starting at T+ 2264.362
+Generation 50 in system 0 complete at T+ 2308.769
+
+Generation 51 in system 0 starting at T+ 2308.790
+Generation 51 in system 0 complete at T+ 2353.192
+
+Generation 52 in system 0 starting at T+ 2353.213
+Generation 52 in system 0 complete at T+ 2397.548
+
+Generation 53 in system 0 starting at T+ 2397.570
+Generation 53 in system 0 complete at T+ 2441.882
+
+Generation 54 in system 0 starting at T+ 2441.905
+Generation 54 in system 0 complete at T+ 2486.262
+
+Generation 55 in system 0 starting at T+ 2486.283
+Generation 55 in system 0 complete at T+ 2530.769
+
+Generation 56 in system 0 starting at T+ 2530.790
+Generation 56 in system 0 complete at T+ 2575.043
+
+Generation 57 in system 0 starting at T+ 2575.063
+Generation 57 in system 0 complete at T+ 2619.507
+
+Generation 58 in system 0 starting at T+ 2619.529
+Generation 58 in system 0 complete at T+ 2663.725
+
+Generation 59 in system 0 starting at T+ 2663.748
+Generation 59 in system 0 complete at T+ 2708.072
+
+Generation 60 in system 0 starting at T+ 2708.093
+Generation 60 in system 0 complete at T+ 2752.416
+
+Generation 61 in system 0 starting at T+ 2752.438
+Generation 61 in system 0 complete at T+ 2796.794
+
+Generation 62 in system 0 starting at T+ 2796.816
+Generation 62 in system 0 complete at T+ 2841.073
+
+Generation 63 in system 0 starting at T+ 2841.094
+Generation 63 in system 0 complete at T+ 2885.492
+
+Generation 64 in system 0 starting at T+ 2885.513
+Generation 64 in system 0 complete at T+ 2929.776
+
+Generation 65 in system 0 starting at T+ 2929.797
+Generation 65 in system 0 complete at T+ 2974.214
+
+Generation 66 in system 0 starting at T+ 2974.235
+Generation 66 in system 0 complete at T+ 3018.480
+
+Generation 67 in system 0 starting at T+ 3018.502
+Generation 67 in system 0 complete at T+ 3063.088
+
+Generation 68 in system 0 starting at T+ 3063.110
+Generation 68 in system 0 complete at T+ 3107.433
+
+Generation 69 in system 0 starting at T+ 3107.455
+Generation 69 in system 0 complete at T+ 3152.098
+
+Generation 70 in system 0 starting at T+ 3152.121
+Generation 70 in system 0 complete at T+ 3196.508
+
+Generation 71 in system 0 starting at T+ 3196.529
+Generation 71 in system 0 complete at T+ 3240.950
+
+Generation 72 in system 0 starting at T+ 3240.972
+Generation 72 in system 0 complete at T+ 3285.257
+
+Generation 73 in system 0 starting at T+ 3285.278
+Generation 73 in system 0 complete at T+ 3329.610
+
+Generation 74 in system 0 starting at T+ 3329.632
+Generation 74 in system 0 complete at T+ 3373.983
+
+Generation 75 in system 0 starting at T+ 3374.005
+Generation 75 in system 0 complete at T+ 3418.486
+
+Generation 76 in system 0 starting at T+ 3418.508
+Generation 76 in system 0 complete at T+ 3462.858
+
+Generation 77 in system 0 starting at T+ 3462.879
+Generation 77 in system 0 complete at T+ 3507.367
+
+Generation 78 in system 0 starting at T+ 3507.388
+Generation 78 in system 0 complete at T+ 3551.688
+
+Generation 79 in system 0 starting at T+ 3551.709
+Generation 79 in system 0 complete at T+ 3596.267
+
+Generation 80 in system 0 starting at T+ 3596.288
+Generation 80 in system 0 complete at T+ 3640.748
+
+Generation 81 in system 0 starting at T+ 3640.770
+Generation 81 in system 0 complete at T+ 3685.299
+
+Generation 82 in system 0 starting at T+ 3685.322
+Generation 82 in system 0 complete at T+ 3729.624
+
+Generation 83 in system 0 starting at T+ 3729.645
+Generation 83 in system 0 complete at T+ 3774.233
+
+Generation 84 in system 0 starting at T+ 3774.255
+Generation 84 in system 0 complete at T+ 3818.751
+
+Generation 85 in system 0 starting at T+ 3818.773
+Generation 85 in system 0 complete at T+ 3863.141
+
+Generation 86 in system 0 starting at T+ 3863.165
+Generation 86 in system 0 complete at T+ 3907.477
+
+Generation 87 in system 0 starting at T+ 3907.498
+Generation 87 in system 0 complete at T+ 3951.856
+
+Generation 88 in system 0 starting at T+ 3951.877
+Generation 88 in system 0 complete at T+ 3996.235
+
+Generation 89 in system 0 starting at T+ 3996.257
+Generation 89 in system 0 complete at T+ 4040.845
+
+Generation 90 in system 0 starting at T+ 4040.866
+Generation 90 in system 0 complete at T+ 4085.200
+
+Generation 91 in system 0 starting at T+ 4085.221
+Generation 91 in system 0 complete at T+ 4129.933
+
+Generation 92 in system 0 starting at T+ 4129.955
+Generation 92 in system 0 complete at T+ 4174.403
+
+Generation 93 in system 0 starting at T+ 4174.424
+Generation 93 in system 0 complete at T+ 4218.925
+
+Generation 94 in system 0 starting at T+ 4218.946
+Generation 94 in system 0 complete at T+ 4263.194
+
+Generation 95 in system 0 starting at T+ 4263.215
+Generation 95 in system 0 complete at T+ 4307.825
+
+Generation 96 in system 0 starting at T+ 4307.846
+Generation 96 in system 0 complete at T+ 4352.265
+
+Generation 97 in system 0 starting at T+ 4352.286
+Generation 97 in system 0 complete at T+ 4396.972
+
+Generation 98 in system 0 starting at T+ 4396.993
+Generation 98 in system 0 complete at T+ 4441.394
+
+Generation 99 in system 0 starting at T+ 4441.414
+Generation 99 in system 0 complete at T+ 4485.886
+
+Generation 100 in system 0 starting at T+ 4485.907
+Generation 100 in system 0 complete at T+ 4530.226
+
+Generation 101 in system 0 starting at T+ 4530.249
+Generation 101 in system 0 complete at T+ 4574.752
+
+Generation 102 in system 0 starting at T+ 4574.773
+Generation 102 in system 0 complete at T+ 4619.146
+
+Generation 103 in system 0 starting at T+ 4619.168
+Generation 103 in system 0 complete at T+ 4663.651
+
+Generation 104 in system 0 starting at T+ 4663.671
+Generation 104 in system 0 complete at T+ 4707.968
+
+Generation 105 in system 0 starting at T+ 4707.989
+Generation 105 in system 0 complete at T+ 4752.306
+
+Generation 106 in system 0 starting at T+ 4752.327
+Generation 106 in system 0 complete at T+ 4796.658
+
+Generation 107 in system 0 starting at T+ 4796.680
+Generation 107 in system 0 complete at T+ 4841.341
+
+Generation 108 in system 0 starting at T+ 4841.363
+Generation 108 in system 0 complete at T+ 4885.736
+
+Generation 109 in system 0 starting at T+ 4885.758
+Generation 109 in system 0 complete at T+ 4930.241
+
+Program Complete.
+
+Load Case Summary:
+----------------------
+Load Case 0
+  X Force:	0.00e+00
+  Y Force:	-1.47e+05
+
+Summary of valid designs:
+--------------------------
+Parent Load Case,Top Flange Width,Bottom Flange Width,Web Thickness,Doubler Thickness at Hoist Pin,Doubler Thickness at Load Pin,Fitness 1, Fitness 2
+1,91.554,162.123,96.774,33.461,85.072,6.476840079288564,883.9166603
+1,136.451,174.904,5.769,9.201,82.508,4.048856175017124,210.2880987
+1,145.704,60.423,3.758,4.187,141.234,1.1470838604479152,173.8517656
+1,173.109,82.136,89.105,30.424,192.874,6.440131287349843,870.6718997
+1,108.471,224.84,20.092,18.651,126.978,5.613728549433123,351.8306382
+1,51.004,196.645,72.695,35.218,157.498,6.40133461179079,734.4047756
+1,42.434,142.466,92.231,39.827,255.918,6.553027582632316,899.6089303
+1,58.538,239.768,14.161,130.261,20.683,5.060736407232601,336.2910932
+1,83.903,245.174,90.334,39.019,155.065,6.644206680210824,900.3004648
+1,92.43,264.003,84.446,107.606,213.235,6.678240108744337,945.900277
+1,188.818,243.694,86.99,43.612,216.242,6.707899846179202,946.5100073
+1,84.477,163.361,69.605,37.477,197.817,6.358616804442489,730.3055
+1,38.11,211.227,39.013,32.279,117.635,5.897631372401319,465.4752614
+1,176.577,242.853,45.056,84.272,162.865,6.2891969618934445,638.7650336
+	Command being timed: "python -um pystruct /tmp/test_open.dat -S3 -i80 -g110 --csv"
+	User time (seconds): 35619.77
+	System time (seconds): 617.33
+	Percent of CPU this job got: 734%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:22:11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 283428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 24
+	Minor (reclaiming a frame) page faults: 33991951
+	Voluntary context switches: 365152
+	Involuntary context switches: 5609723
+	Swaps: 0
+	File system inputs: 6128
+	File system outputs: 64
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
