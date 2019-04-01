@@ -1,0 +1,122 @@
+LOCATION RUN SELECTED
+Analysis Started.
+Sampling Latin-Hypercube array space (1)
+0.15682814613427315 0.7563942723862338 0.07453559924999299
+Generation 0 in system 0 starting at T+ 16.882
+Generation 0 in system 0 complete at T+ 34.255
+
+Generation 1 in system 0 starting at T+ 34.262
+Generation 1 in system 0 complete at T+ 51.625
+
+Generation 2 in system 0 starting at T+ 51.633
+Generation 2 in system 0 complete at T+ 69.096
+
+Generation 3 in system 0 starting at T+ 69.104
+Generation 3 in system 0 complete at T+ 86.555
+
+Generation 4 in system 0 starting at T+ 86.563
+Generation 4 in system 0 complete at T+ 104.006
+
+Generation 5 in system 0 starting at T+ 104.014
+Generation 5 in system 0 complete at T+ 121.482
+
+Generation 6 in system 0 starting at T+ 121.489
+Generation 6 in system 0 complete at T+ 139.067
+
+Generation 7 in system 0 starting at T+ 139.075
+Generation 7 in system 0 complete at T+ 156.637
+
+Generation 8 in system 0 starting at T+ 156.645
+Generation 8 in system 0 complete at T+ 173.992
+
+Generation 9 in system 0 starting at T+ 174.000
+Generation 9 in system 0 complete at T+ 191.464
+
+Generation 10 in system 0 starting at T+ 191.472
+Generation 10 in system 0 complete at T+ 209.017
+
+Generation 11 in system 0 starting at T+ 209.025
+Generation 11 in system 0 complete at T+ 226.372
+
+Generation 12 in system 0 starting at T+ 226.380
+Generation 12 in system 0 complete at T+ 243.766
+
+Generation 13 in system 0 starting at T+ 243.774
+Generation 13 in system 0 complete at T+ 261.113
+
+Generation 14 in system 0 starting at T+ 261.120
+Generation 14 in system 0 complete at T+ 278.504
+
+Generation 15 in system 0 starting at T+ 278.512
+Generation 15 in system 0 complete at T+ 296.050
+
+Generation 16 in system 0 starting at T+ 296.058
+Generation 16 in system 0 complete at T+ 313.421
+
+Generation 17 in system 0 starting at T+ 313.429
+Generation 17 in system 0 complete at T+ 330.967
+
+Generation 18 in system 0 starting at T+ 330.975
+Generation 18 in system 0 complete at T+ 348.259
+
+Generation 19 in system 0 starting at T+ 348.267
+Generation 19 in system 0 complete at T+ 365.732
+
+Generation 20 in system 0 starting at T+ 365.740
+Generation 20 in system 0 complete at T+ 383.204
+
+Generation 21 in system 0 starting at T+ 383.212
+Generation 21 in system 0 complete at T+ 400.777
+
+Generation 22 in system 0 starting at T+ 400.785
+Generation 22 in system 0 complete at T+ 418.147
+
+Generation 23 in system 0 starting at T+ 418.155
+Generation 23 in system 0 complete at T+ 435.713
+
+Generation 24 in system 0 starting at T+ 435.721
+Generation 24 in system 0 complete at T+ 453.202
+
+Program Complete.
+
+Load Case Summary:
+----------------------
+Load Case 0
+  X Force:	0.00e+00
+  Y Force:	-1.47e+05
+
+Summary of valid designs:
+--------------------------
+Parent Load Case,Top Flange Width,Bottom Flange Width,Web Thickness,Doubler Thickness at Hoist Pin,Doubler Thickness at Load Pin,Fitness 1, Fitness 2
+1,170.039,245.14,71.477,192.605,189.368,6.578524181904665,929.7015422
+1,67.572,51.95,0.464,142.811,209.76,-6.064345584586521,252.186297
+1,61.042,223.528,106.182,54.387,103.309,6.651897281902046,990.4291952
+1,248.513,224.849,77.891,30.268,54.893,6.4733516531593605,816.6702422
+1,197.478,184.497,17.633,92.008,136.953,5.4076005194191135,414.8902908
+1,103.886,16.745,16.36,158.441,185.596,2.5621295145196914,372.8925449
+1,230.115,176.491,20.515,21.348,203.78,5.562871912316794,419.0335206
+1,43.425,101.887,53.24,200.759,78.852,5.628829465681179,645.1817534
+1,143.639,222.302,73.671,32.004,87.213,6.437115679404535,757.0660478
+	Command being timed: "python -um pystruct /tmp/test_open.dat -S3 -i30 -g25 --csv"
+	User time (seconds): 3089.32
+	System time (seconds): 46.85
+	Percent of CPU this job got: 690%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:34.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 156580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 113
+	Minor (reclaiming a frame) page faults: 3475600
+	Voluntary context switches: 38424
+	Involuntary context switches: 385160
+	Swaps: 0
+	File system inputs: 27304
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
