@@ -52,5 +52,28 @@ W_{beam} \leq 1000kg
 $$
 is violated. 
 
-The above constraint is applied by generating a multiplier based on the degree to which the constraint has been violated. This multiplier is used to multiply the fitness results, ensuring the solutions that violate constraints are the least dominant and are therefore much less likely to be selected to move on to the next generation in favor of more dominant designs. 
+The above constraint is applied by generating a multiplier based on the degree to which the constraint has been violated. This multiplier is used to multiply the fitness results, ensuring the solutions that violate constraints are the least dominant and are therefore much less likely to be selected to move on to the next generation in favor of more dominant designs.
+
+\subsection{Mathematical Representation}
+To summarize the previous two sections mathematically the objective of this design exercise is: 
+
+Given a beam represented by fitness functions: 
+
+\begin{itemize}
+  \item $W(t_1, t_2, t_3, t_4, t_5)$: Weight of the beam in kg
+  \item $\sigma(t_1, t_2, t_3, t_4, t_5)$: Peak Stress in the material when loaded. 
+  \item $\beta(t_1, t_2, t_3, t_4, t_5)$: Reliability index in the material when loaded. 
+\end{itemize}
+
+Find: 
+	$$\min\left(W(t_1, t_2, t_3, t_4, t_5), \sigma(t_1, t_2, t_3, t_4, t_5)\right)$$
+
+OR: 
+	$$\min\left(W(t_1, t_2, t_3, t_4, t_5), \beta(t_1, t_2, t_3, t_4, t_5)\right)$$
+
+Subject to:
+	$$W(t_1, t_2, t_3, t_4, t_5) < 1000 \text{kg}$$
+
+Where
+	$t_1, t_2, t_3, t_4, t_5$ are the various material thicknesses discussed in section \ref{sec:model}. 
 
