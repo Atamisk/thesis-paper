@@ -72,8 +72,8 @@ Pareto Dominance is a simple way to compare systems based on multiple different 
 
 Let the vector of fitness values for two arbitrary solutions be defined as:
 \begin{align*}
-	C_a &= \{ f_1, f_2, ... f_n \}\\
-	C_b &= \{ F_1, F_2, ... F_n\}
+	\vec{C}_a &= \{ f_1, f_2, ... f_n \}\\
+	\vec{C}_b &= \{ F_1, F_2, ... F_n\}
 \end{align*}
 
 Where:
@@ -89,12 +89,12 @@ Then, an operator $P_{a,b}$ can be defined which returns true if $C_a$ dominates
 
 \begin{equation}
 P_{a,b} = \begin{cases}
-          \hbox{True  when  } C_{a}^i < C_{b}^i \; \forall i \in \{1..n\}\\ 
+          \hbox{True  when  } C_{a}^i \le C_{b}^i \; \forall i \in \{1..n\}\\ 
           \hbox{False otherwise}
           \end{cases}
 \end{equation}
 
-Note that the operator $P_{a,b}$ does not necessarily imply the value of $P_{b,a}$. While only $C_b$ or $C_a$ can be dominant, it is possible that neither is dominant. In this case, both $P_{a,b}$ and $P_{b,a}$ would be false\cite{diff-evol}. 
+Note that the operator $P_{a,b}$ does not necessarily imply the value of $P_{b,a}$. While only $\vec{C}_b$ or $\vec{C}_a$ can be dominant, it is possible that neither is dominant. In this case, both $P_{a,b}$ and $P_{b,a}$ would be false\cite{diff-evol}. 
 
 \subsubsection{Implementing Pareto Dominance in DE}
 
