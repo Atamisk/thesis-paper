@@ -1,7 +1,6 @@
 \section{Numerical Optimization}
-Optimization is defined as ``a mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints."\cite{opt-def} In the specific case of engineering design, one of several techniques is used to find local or global extrema of a function of one or multiple variables. These techniques use various criteria to traverse the independent variables and detect these extrema. The method the optimizer uses to traverse the solution space has a significant impact on the speed at which the operation converges to a solution or solutions.\cite{basic-optim} \todo{Is this section complete enough?}
+Optimization is defined as ``a mathematical technique for finding a maximum or minimum value of a function of several variables subject to a set of constraints."\cite{opt-def} In the specific case of engineering design, one of several techniques is used to find local or global extrema of a function of one or multiple variables. The multivariate functions that optimization acts on and finds extrema of are commonly referred to as \emph{objective functions}. Optimization techniques use various criteria to traverse the independent variables of these functions and detect the extrema. The method the optimizer uses to traverse the solution space has a significant impact on the speed at which the operation converges to a solution or solutions.\cite{basic-optim} 
 
-\todo{Introduce the concept of the objective function}
 \subsection{Differential Evolution}
 Differential evolution was selected as the optimizer for this study. 
 
@@ -65,7 +64,6 @@ return child_vector
 \subsection{Extending DE to Multi-Objective}
 Differential Evolution Optimization is originally a single-objective method. However, it can easily be extended to multi-objective operation by changing the method by which fitness is evaluated. Instead of a single fitness function, multiple independent fitness functions are evaluated using the concept of Pareto dominance. 
 
-\todo{Complete this section}
 
 \subsubsection{Pareto Dominance}
 Pareto Dominance is a simple way to compare systems based on multiple different fitness criteria. Pareto dominance for a minimization problem can be described by the following formula \cite{diff-evol}: 
