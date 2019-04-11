@@ -24,7 +24,7 @@ In order to find load cases for use, a Latin Hypercube Sampling algorithm is use
 \subsubsection{Analyze load Cases} 
 For each load case selected, a set of 50 randomly selected candidate designs are generated. These designs are analyzed using Finite Element Analysis to find the maximum stress and design weight. These values are used as fitness functions to rank the designs. This process is repeated using a Multi Objective Differential Evolution algorithm to selectively refine the designs for a set number of generations.
 \subsubsection{Aggregation}
-At this point, the solution algorithm has 25 separate load cases with individual Pareto fronts. The designs that make up each Pareto front are added to a single unified set of designs. From there, they are once again ranked according to dominance and a ``final" Pareto front is generated. The designs that comprise this ``final" Pareto front are considered to be the most desirable designs and are presented to the designer.
+At this point, the solution algorithm has 25 separate load cases with individual Pareto fronts. The designs that make up each Pareto front are added to a single unified set of designs. From there, they are once again ranked according to dominance in accordance with Equation \ref{eq:dominance} and a ``final" Pareto front is generated. The designs that comprise this ``final" Pareto front are considered to be the most desirable designs and are presented to the designer.
 
 \subsection{Stochastic Loads Approach}
 The stochastic loads approach is functionally similar to the Aggregated Latin Hypercube Sampling Approach, with a few key differences: 
@@ -36,9 +36,9 @@ The stochastic loads approach is functionally similar to the Aggregated Latin Hy
 The overall process is detailed below. 
 
 \subsubsection{Load Case}
-Instead of using multiple load cases, this approach uses a single load case. However, it is specified as a stochastic set of loads instead of discrete loads applied. For example, the load case considered for the Example System is shown in Figure \ref{fig:stoch_params}. Note that this information matches the design parameters given in section \ref{sec:perf_req}. Specifying the load case this way effectively covers the entire performance envelope and makes the single load case valid for all states of load on the beam. 
+Instead of using multiple load cases, this approach uses a single load case. However, it is specified as a stochastic set of loads instead of discrete loads applied. For example, the load case considered for the Example System is shown in Table \ref{tab:stoch_params}. Note that this information matches the design parameters given in section \ref{sec:perf_req}. Specifying the load case this way effectively covers the entire performance envelope and makes the single load case valid for all states of load on the beam. 
 
-\begin{figure}[!h]
+\begin{table}[!h]
     \begin{center}
     \begin{tabular}{|l|cc|}
 	    \hline
@@ -49,9 +49,9 @@ Instead of using multiple load cases, this approach uses a single load case. How
 	    \hline
     \end{tabular}
     \caption{Stochastic Parameters for Example System}
-    \label{fig:stoch_params}
+    \label{tab:stoch_params}
     \end{center}
-\end{figure}
+\end{table}
 
 \subsubsection{Analyze Load Case}
 The actual analysis of the load case selected is nearly identical to the ALHS Approach. The key difference is the use of the unitless parameter $\beta$ to represent the stress on the beam. This allows the stress, and by inference the safety factor of the device, to be represented in stochastic terms. As mentioned in section \ref{sec:beta}, the calculation for $\beta$ requires the two unit response tensors $\sigma_{Px}$ and $\sigma_{Py}$ to be retrieved. Currently, this must be done by running NASTRAN twice: Once with a unit load in the x direction, and again with a unit load in the y direction. For a complete discussion and derivation of the parameter $\beta$, see section \ref{sec:beta}. Using $\beta$ and the component weight as fitness measurements, MODE is performed on the load case.

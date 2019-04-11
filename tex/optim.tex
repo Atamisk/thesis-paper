@@ -58,7 +58,7 @@ for integer j in [0 ... num_individuals]:
         output_vector[j] = parent_vector[j]
     else
         output_vector[j] = child_vector[j]
-return child_vector
+return output_vector
 \end{lstlisting}
 
 \subsection{Extending DE to Multi-Objective}
@@ -85,7 +85,7 @@ Where:
 
 Then, an operator $P_{a,b}$ can be defined which returns true if $C_a$ dominates $C_b$. This would take the following form:
 
-\begin{equation}
+\begin{equation}\label{eq:dominance}
 P_{a,b} = \begin{cases}
           \hbox{True  when  } C_{a}^i \le C_{b}^i \; \forall i \in \{1..n\}\\ 
           \hbox{False otherwise}
@@ -106,10 +106,10 @@ for integer j in [0 ... num_individuals]:
     f2 = get_fitness(child_vector[j])
 
     if P(f2,f1)
-        output_vector[j] = child_vector[j]
+        output_vector[j] = parent_vector[j]
     else
         output_vector[j] = child_vector[j]
-return child_vector
+return output_vector
 \end{lstlisting}
 Note that the structure of the if condition ``defaults" to selecting the parent. The child is only selected if it is dominant. The parent is selected if it is dominant or if neither dominates. 
 
