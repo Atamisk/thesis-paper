@@ -196,3 +196,22 @@ The deviators of these tensors are:
 \right]
 \end{align*}
 
+A monte carlo simulation was prepared using the properties above. A sample size of $1.5\times 10^6$ was used for the simulation. Then, code was created based on the equations \ref{eq:mu} and \ref{eq:sigma}, as well as \ref{eq:fd_ax} to \ref{eq:sd_ay}. This code was run with the same parameters, and results obtained. The results from these two analyses can be seen in Table \ref{tab:val_tensors} below. 
+
+\begin{table}[!hbtp]
+\caption{Selected Validation Results for the Taylor Approximation for finding $\mu_\sigma$ and $\sigma_\sigma$}
+\small
+\label{tab:val_tensors}
+\begin{center}
+\begin{tabular}{|l|p{2.1cm}|p{2.5cm}|p{2.5cm}|}
+\hline
+& Monte Carlo Simulation & Taylor Expansion Approximation & Error percentage\\
+\hline
+Expected Value (Mean) & $1.0993 \times 10^6$ & $1.0994 \times 10^6$ & $-3.9552 \times 10^{-4} \;\%$\\
+Standard Deviation & $1.4382 \times 10^5$ & $1.4386 \times 10^5$ & $-3.2071 \times 10^{-2} \;\%$\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Based on this table, it is plainly apparent that the tensor-based Taylor Series Approximation for finding $\mu_\sigma$ and $\sigma_\sigma$ is an appropriate approximation method. The code that was developed for the validation is identical to the code in the final product in the main analysis loop. 
