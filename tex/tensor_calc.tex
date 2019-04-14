@@ -40,18 +40,20 @@ This turns equation \ref{eq:basedef} into:
    \end{align}
 This simplified equation can be derived as shown below: 
    \begin{align}
-	   \frac{\partial \sigma'}{\partial P_x} &= \frac{3}{4} \frac{\partial \alpha}{\partial P_x} 
-						    \left( \frac{3}{2} \alpha \right)^{-\frac{1}{2}}\label{eq:fd_vmx}\\
-	   \frac{\partial^2 \sigma'}{\partial P_x^2} &= \frac{3}{4} \frac{\partial ^2 \alpha}{\partial P_x^2}
-	                                                \left( \frac{3}{2} \alpha \right)^{-\frac{1}{2}} - 
-							\frac{9}{16} \left(\frac{\partial \alpha}{\partial P_x}\right)^2
-							\left( \frac{3}{2} \alpha \right)^{-\frac{3}{2}}\\
-	   \frac{\partial \sigma'}{\partial P_y} &= \frac{3}{4} \frac{\partial \alpha}{\partial P_y} 
-	                                            \left( \frac{3}{2} \alpha \right)^{-\frac{1}{2}}\\
-	   \frac{\partial^2 \sigma'}{\partial P_y^2} &= \frac{3}{4} \frac{\partial ^2 \alpha}{\partial P_y^2}
-	                                                \left( \frac{3}{2} \alpha \right)^{-\frac{1}{2}} - 
-							\frac{9}{16} \left(\frac{\partial \alpha}{\partial P_y}\right)^2
-							\left( \frac{3}{2} \alpha \right)^{-\frac{3}{2}}\label{eq:sd_vmy}
+	   \frac{\partial \sigma'}{\partial P_x} &= \sqrt{\frac{3}{2}} \left[\frac{1}{2} \frac{\partial \alpha}{\partial P_x} 
+						    \left( \alpha \right)^{-\frac{1}{2}}\right]\label{eq:fd_vmx}\\
+	   \frac{\partial^2 \sigma'}{\partial P_x^2} &= \sqrt{\frac{3}{2}} \left[ \frac{1}{2}  \frac{\partial ^2 \alpha}{\partial P_x^2}
+	                                                \left( \alpha \right)^{-\frac{1}{2}} - 
+							\frac{1}{4}  
+							\left(\frac{\partial \alpha}{\partial P_x}\right)^2
+							\left( \alpha \right)^{-\frac{3}{2}}\right] \\
+	   \frac{\partial \sigma'}{\partial P_y} &= \sqrt{\frac{3}{2}} \left[\frac{1}{2} \frac{\partial \alpha}{\partial P_y} 
+						    \left( \alpha \right)^{-\frac{1}{2}}\right]\\
+	   \frac{\partial^2 \sigma'}{\partial P_y^2} &= \sqrt{\frac{3}{2}} \left[ \frac{1}{2}  \frac{\partial ^2 \alpha}{\partial P_y^2}
+	                                                \left( \alpha \right)^{-\frac{1}{2}} - 
+							\frac{1}{4}   
+							\left(\frac{\partial \alpha}{\partial P_y}\right)^2
+							\left( \alpha \right)^{-\frac{3}{2}}\right] \label{eq:sd_vmy}
    \end{align}
 Of course, this introduces derivatives of $\alpha$ as values that must be calculated. In order to calculate these derivatives, the concept and application of the deviator tensor must be investigated further.
 
@@ -119,22 +121,78 @@ Because both matrix multiplication and the trace of a matrix are both distributi
 		    (\sigma_{devx} \cdot P_x + \sigma_{devy} \cdot P_y)\right]\nonumber\\
 		  &= \mathrm{tr}\left[\sigma_{devx} \cdot \sigma_{devx} \cdot P_x^2 + \left( 
 		     \sigma_{devx} \cdot \sigma_{devy} + \sigma_{devy} \cdot \sigma_{devx} \right) \cdot P_x P_y + 
-		     \sigma_{devy} \cdot \sigma_{devy} \cdot P_y^2 \right]
+		     \sigma_{devy} \cdot \sigma_{devy} \cdot P_y^2 \right]\\
+		  &= \mathrm{tr}\left[ \sigma_{devx} \cdot \sigma_{devx} \right] \cdot P_x^2 +  
+		     \mathrm{tr}\left[ \sigma_{devx} \cdot \sigma_{devy} + \sigma_{devy} \cdot \sigma_{devx} \right]
+                     \cdot P_x P_y + \mathrm{tr}\left[ \sigma_{devy} \cdot \sigma_{devy}\right] \cdot P_y^2
    \end{align}
 Note that the center term is arranged as shown due to the non-commutative nature of matrix multiplication.
 Now, we can take this definition of $\alpha$ and easily find the derivatives we need.
    \begin{align}
 	   \frac{\partial \alpha}{\partial P_x} &= 
-	   	\mathrm{tr}\left[\sigma_{devx} \cdot \sigma_{devx} \cdot 2P_x + \left( 
-		     \sigma_{devx} \cdot \sigma_{devy} + \sigma_{devy} \cdot \sigma_{devx} \right) \cdot P_y \right]\label{eq:fd_ax}\\
+	   	\mathrm{tr}\left[\sigma_{devx} \cdot \sigma_{devx}\right] \cdot 2P_x + \mathrm{tr} \left[ 
+		     \sigma_{devx} \cdot \sigma_{devy} + \sigma_{devy} \cdot \sigma_{devx} \right] \cdot P_y\label{eq:fd_ax}\\
 	   \frac{\partial^2 \alpha}{\partial P_x^2} &=
-	   	\mathrm{tr}\left[2 \cdot \sigma_{devx} \cdot \sigma_{devx} \right]\\
+	   	\mathrm{tr}\left[ \sigma_{devx} \cdot \sigma_{devx} \right] \cdot 2\\
 	   \frac{\partial \alpha}{\partial P_y} &= 
-	   	\mathrm{tr}\left[\sigma_{devy} \cdot \sigma_{devy} \cdot 2P_y + \left( 
-		     \sigma_{devx} \cdot \sigma_{devy} + \sigma_{devy} \cdot \sigma_{devx} \right) \cdot P_x \right]\\
+	   	\mathrm{tr}\left[\sigma_{devy} \cdot \sigma_{devy}\right] \cdot 2P_y + \mathrm{tr} \left[ 
+		     \sigma_{devx} \cdot \sigma_{devy} + \sigma_{devy} \cdot \sigma_{devx} \right] \cdot P_x\\
 	   \frac{\partial^2 \alpha}{\partial P_x^2} &=
-		\mathrm{tr}\left[2 \cdot \sigma_{devy} \cdot \sigma_{devy} \right]\label{eq:sd_ay}
+		\mathrm{tr}\left[\sigma_{devy} \cdot \sigma_{devy} \right]\cdot 2\label{eq:sd_ay}
    \end{align}
 
    With equations \ref{eq:fd_ax} through \ref{eq:sd_ay} coupled with equations \ref{eq:fd_vmx} through \ref{eq:sd_vmy}, we have all of the terms needed to construct and solve equations \ref{eq:mu} and \ref{eq:sigma}, substituting the equation for $\sigma$ into $Y$ for both equations. It is then easy to substitute the results of equations \ref{eq:mu} and \ref{eq:sigma} into \ref{eq:beta} and determine $\beta$.  In the code presented with this report, all of these terms are assembled separately and combined. Therefore, the final equation with all substitutions performed will not be shown here.
+
+\subsubsection{Validating the derivation for $\mu_\sigma$ and $\sigma_\sigma$}
+The equations for finding $\mu_\sigma$ and $\sigma_\sigma$ were validated by comparing the results from the equation to a Monte Carlo Simulation of the equation system. One of the test systems used was the following states of stress:
+
+The mean and standard deviation of the input loads to the material was assumed to be:
+\begin{align*}
+    \mu_{px} &= 25 &\sigma_{px} &= 3.25\\
+    \mu_{py} &= 150 &\sigma_{py} &= 19.5\\
+\end{align*}
+
+The unit response to stress was assumed to be: 
+\begin{align*}
+    U_{xpx} &= 2500  &U_{ypx} &= 750  &U_{xypx} &= 320\\
+    U_{xpy} &= 250  &U_{ypy} &= 7500  &U_{xypy} &= 210
+\end{align*}
+
+The above unit responses can be represented as tensors. These tensors are: 
+
+\begin{align*}
+\mathbf{U}_{px} &= \left[ 
+\begin{matrix}
+2500 & 320 & 0\\
+320 & 750 & 0\\
+0 & 0 & 0
+\end{matrix}
+\right]
+&\mathbf{U}_{py} &= \left[
+\begin{matrix}
+250&210&0\\
+210&7500&0\\
+0&0&0
+\end{matrix}
+\right]
+\end{align*}
+
+The deviators of these tensors are: 
+
+\begin{align*}
+\mathbf{\sigma}_{devx} &= \left[ 
+\begin{matrix}
+1416.67 & 320 & 0\\
+320 & -333.3 & 0\\
+0 & 0 & -1083.33
+\end{matrix}
+\right]
+&\mathbf{\sigma}_{devy} &= \left[
+\begin{matrix}
+-2333.3&210&0\\
+210&4916.67&0\\
+0&0&-2583.33
+\end{matrix}
+\right]
+\end{align*}
 
