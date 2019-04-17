@@ -39,6 +39,8 @@ The overall process is detailed below.
 Instead of using multiple load cases, this approach uses a single load case. However, it is specified as a stochastic set of loads instead of discrete loads applied. For example, the load case considered for the Example System is shown in Table \ref{tab:stoch_params}. Note that this information matches the design parameters given in section \ref{sec:perf_req}. Specifying the load case this way effectively covers the entire performance envelope and makes the single load case valid for all states of load on the beam. 
 
 \begin{table}[!h]
+    \caption{Stochastic Parameters for Example System}
+    \label{tab:stoch_params}
     \begin{center}
     \begin{tabular}{|l|cc|}
 	    \hline
@@ -48,8 +50,6 @@ Instead of using multiple load cases, this approach uses a single load case. How
 	    Hoist Load Y Direction & 150kN & 19.5kN\\
 	    \hline
     \end{tabular}
-    \caption{Stochastic Parameters for Example System}
-    \label{tab:stoch_params}
     \end{center}
 \end{table}
 

@@ -40,8 +40,8 @@ For this design, we seek designs of minimum weight and maximum strength in the l
 \item Minimize component mass, expressed as the beam structure's mass in kilograms. 
 \item Minimize stress in the beam, through one of two criteria depending on which approach is being used: 
 	\begin{enumerate}
-	    \item Directly minimize the peak stress in the beam, or
-	    \item Maximize the critical value for the constant $\beta$, which is discussed further in section \ref{sec:beta} on page \pageref{sec:beta}.
+	    \item For the Aggregated LHS Method, directly minimize the peak stress in the beam
+	    \item For the Stochastic Loads Method, maximize the critical value for the Reliability Index. This is a reliability measure related, but not identical to stress. The Reliability Index is discussed further in section \ref{sec:beta} on page \pageref{sec:beta}.
 	\end{enumerate}
 \end{enumerate}
 
@@ -69,11 +69,19 @@ Find:
 	$$\min\left(W(t_1, t_2, t_3, t_4, t_5), \sigma(t_1, t_2, t_3, t_4, t_5)\right)$$
 
 OR: 
-	$$\min\left(W(t_1, t_2, t_3, t_4, t_5), \beta(t_1, t_2, t_3, t_4, t_5)\right)$$
+	$$\min\left(W(t_1, t_2, t_3, t_4, t_5)\right), \max\left(\beta(t_1, t_2, t_3, t_4, t_5)\right)$$
 
 Subject to:
 	$$W(t_1, t_2, t_3, t_4, t_5) < 1000 \text{kg}$$
 
 Where
-	$t_1, t_2, t_3, t_4, t_5$ are the various material thicknesses discussed in section \ref{sec:model}. 
+\begin{align*}
+   t_1 &= \text{The thickness of the top flange}\\
+   t_2 &= \text{The thickness of the bottom flange}\\
+   t_3 &= \text{The thickness of the web}\\
+   t_4 &= \text{The thickness of a thickened region surrounding the hoist mounting lug}\\
+   t_5 &= \text{The thickness of a thickened region surrounding the load mounting lug. }
+\end{align*}
+
+For additional details on the design parameters listed above, reference section \ref{sec:model}
 
