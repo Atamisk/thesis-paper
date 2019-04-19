@@ -46,9 +46,9 @@ For this design, we seek designs of minimum weight and maximum strength in the l
 \end{enumerate}
 
 \subsection{Constraints}
-During the MODE optimization process, 1 constraint is applied. The constraint requires the mass of the modeled beam portion to remain under 1 metric ton (1000kg). In order to accomplish this, a fitness penalty method is used which triggers if the inequality:
+During the MODE optimization process, 1 constraint is applied. The constraint requires the mass of the modeled beam portion to remain under 1 metric ton (1000 kg). In order to accomplish this, a fitness penalty method is used which triggers if the inequality:
 $$
-W_{beam} \leq 1000kg
+W_{beam} \leq 1000 \; \text{kg}
 $$
 is violated. 
 
@@ -68,13 +68,13 @@ Given a beam represented by fitness functions:
 Find: 
 	$$\min\left(W(t_1, t_2, t_3, t_4, t_5), \sigma(t_1, t_2, t_3, t_4, t_5)\right)$$
 
-OR: 
+or: 
 	$$\min\left(W(t_1, t_2, t_3, t_4, t_5)\right), \max\left(\beta(t_1, t_2, t_3, t_4, t_5)\right)$$
 
-Subject to:
+subject to:
 	$$W(t_1, t_2, t_3, t_4, t_5) < 1000 \text{kg}$$
 
-Where
+where the design variables are:
 \begin{align*}
    t_1 &= \text{The thickness of the top flange}\\
    t_2 &= \text{The thickness of the bottom flange}\\
@@ -83,5 +83,5 @@ Where
    t_5 &= \text{The thickness of a thickened region surrounding the load mounting lug. }
 \end{align*}
 
-For additional details on the design parameters listed above, reference section \ref{sec:model}
+For additional details on the design parameters listed above, reference Section \ref{sec:model}
 
