@@ -18,6 +18,10 @@ The name NASTRAN is short for \textbf{NA}SA \textbf{St}ructural \textbf{An}alysi
 
 The version of NASTRAN employed in the code presented herein is a recently open-sourced copy of the NASTRAN95 solver. As the name implies, it is a version originally developed in 1995. While newer versions of this software exist, this is the newest copy that is freely available. For simple solutions such as those needed for this work, NASTRAN95 is functionally very similar to the more modern commercial utilities available. This version of NASTRAN is freely available on GitHub\cite{nasa-git}. 
 
+\subsection{FEMAP}
+Siemens FEMAP is a NASTRAN Pre- and Post Processor. The purpose of the program is to allow graphical modelling of geometries, forces and constraints. Once the geometry is defined, FEMAP allows the users to generate a mesh and establish boundary conditions based on the geometry, loadings and constraints. This information is packaged as a data file suitable for analysis by NASTRAN. After analysis is complete, FEMAP can be used to view graphical plots of the stress and strain results. 
+
+For this study, FEMAP was used to generate the initial geometry and data files. 
 \subsection{msslhs}
 
-msslhs is a Python utility that provides latin hypercube sampling in several locations throughout the code presented. This utility is created and maintained by Justin Hughes. It is available from the Mississippi State University CyberDesign Wiki \cite{msslhs}. 
+msslhs is a Python utility that provides Latin hypercube sampling in several locations throughout the code presented. This utility is created and maintained by Justin Hughes. It is available from the Mississippi State University CyberDesign Wiki \cite{msslhs}. 

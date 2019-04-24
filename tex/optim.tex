@@ -61,6 +61,15 @@ for integer j in [0 ... num_individuals]:
 return output_vector
 \end{lstlisting}
 
+\subsubsection{Convergence}
+In order to limit the time the evolution operator runs, the use of a stopping condition is recommended in single objective optimization. The typical options for halting execution are: 
+
+\begin{itemize}
+\item \emph{Fixed Generation Count:} Set a maximum number of generations to execute. This is the simplest condition, but also the only one guaranteed to trigger after some time. This condition is typically used as a ``backup condition" in concert with the other more complex conditions \cite{diff-evol}. 
+\item \emph{Terminate when fitness no longer improves:} Set a number of generations after which the evolution will terminate if the fitness does not improve \cite{diff-evol}. 
+\item \emph{Terminate if the individuals are no longer evolving:} Set a number of generations after which the evolution will terminate if the genetic information of the individuals does not sufficiently change \cite{diff-evol}.
+\end{itemize}
+
 \subsection{Extending DE to Multi-Objective}
 Differential Evolution Optimization is originally a single-objective method. However, it can easily be extended to multi-objective operation by changing the method by which fitness is evaluated. Instead of a single fitness function, multiple independent fitness functions are evaluated using the concept of Pareto dominance. 
 
@@ -113,3 +122,13 @@ return output_vector
 \end{lstlisting}
 Note that the structure of the if condition ``defaults" to selecting the parent. The child is only selected if it is dominant. The parent is selected if it is dominant or if neither dominates. 
 
+\subsubsection{Convergence}
+Several Convergence Criteria also exist for multiobjective optimization:
+
+\begin{itemize}
+\item \emph{Terminate after a fixed number of generations:} This is the same criterion as for single objective problems. 
+\item \emph{Terminate when the Pareto Front is a certain percentage of the total population:} Set a limit percentage for the number of Pareto Front Members as a percentage of the total population above which the evolution will terminate \cite{mogaconv}.
+\item \emph{Terminate based on the improvement ratio:} Set a lower limit for the improvement ratio: A measure of how much the Pareto Front membership has changed from generation to generation \cite{mdconv}.
+\end{itemize}
+
+This study uses a fixed number of generations. The reason for this is primarily to limit the complexity of the initial study into the optimization methods presented.

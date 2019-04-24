@@ -14,7 +14,7 @@ The example system to be studied is based on a few basic fixed design parameters
 Also fixed is the material, which is assumed to be ASTM A36 steel. The material has properties assumed to be: 
 
 \begin{itemize}
-\item Yield Strength: Mean 250MPa, Std. Deviation 32.5 MPa
+\item Yield Strength: Mean 250 MPa, Std. Deviation 32.5 MPa
 \item Young's Modulus: 200 GPa
 \end{itemize}
 
@@ -22,8 +22,8 @@ Also fixed is the material, which is assumed to be ASTM A36 steel. The material 
 \label{sec:perf_req}
 In this case, performance requirements primarily relate to the lifting capacity and the allowable side pull on the beam. The requirements selected for this problem are: 
 \begin{enumerate}
-	\item Lifting capacity (Vertical Maximum Force): 60 metric tons, 60,000kg, 132,000 lbm, or 589 kN. For this problem, 600 kN was used. 
-	\item Side Loading Capacity (Horizontal Maximum Force):  Simulated 5 degree angle between equalizer beam attachment loads and the vertical axis: 52kN. 
+	\item Lifting capacity (Vertical Maximum Force): 60 metric tons, 60,000 kg, 132,000 lbm, or 589 kN. For this problem, 600 kN was used. 
+	\item Side Loading Capacity (Horizontal Maximum Force):  Simulated 5 degree angle between equalizer beam attachment loads and the vertical axis: 52 kN. 
 \end{enumerate}
 
 The beam to be analyzed is symmetric on 2 planes. This allows for the model to consist of only one quarter of the beam under study. Additionally, It will be later clarified that the selected solution methods utilize stochastic methods to model the loading. To enable the use of stochastic method of solution, the following statistically-defined loads have been used to approximate the above performance requirements: 
@@ -72,7 +72,7 @@ or:
 	$$\min\left(W(t_1, t_2, t_3, t_4, t_5)\right), \max\left(\beta(t_1, t_2, t_3, t_4, t_5)\right)$$
 
 subject to:
-	$$W(t_1, t_2, t_3, t_4, t_5) < 1000 \text{kg}$$
+	$$W(t_1, t_2, t_3, t_4, t_5) < 1000 \; \text{kg}$$
 
 where the design variables are:
 \begin{align*}

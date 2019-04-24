@@ -1,19 +1,72 @@
 \subsection{The Reliability Index}
 \label{sec:beta}
-The reliability index is a unitless constant that can be used to infer the probability of a system or component to fail in service. Roughly, the Reliability index describes the safety factor of a system as the Z-score of a standard normal distribution, where higher numbers indicate higher probabilities of success. The Reliability Index of a loading condition can be written as: 
+The reliability index is a unitless constant that can be used to infer the probability of a system or component to fail in service. Roughly, the Reliability index describes the safety factor of a system as the Z-score of a standard normal distribution, where higher numbers indicate higher probabilities of success. It is derived from the basic concept of probability of failure. 
+
+Consider the following definition for the margin of safety for a system under stress \cite{struct-rel}:
+
+\begin{equation}
+Z = S_y - \sigma
+\end{equation}
+where:
+\begin{align*}
+S_y &= \text{Material Yielding Stress}\\
+\sigma &= \text{Von Mises Stress resulting from the applied Load}
+\end{align*}
+If ``failure" is defined as \cite{struct-rel}:
+
+\begin{align}
+G\left( S_y, \sigma\right) &= S_y - \sigma \le 0\nonumber\\
+G\left( S_y, \sigma\right) &= Z < 0
+\end{align}
+If we treat $Z$ as a random variable with a Gaussian distribution, The probability of failure occurring ($P_f$) is given as \cite{struct-rel}:
+
+\begin{align}
+P_f = P(Z<0) &= \Phi \left( \frac{0 - \mu_Z}{\sigma_Z}  \right)\nonumber\\
+P_f &= 1 - \Phi \left( \frac{\mu_Z}{\sigma_Z} \right)\nonumber\\
+P_f &= 1 - \Phi \left( \beta \right)\label{eq:Pf}
+\end{align}
+where:
+\begin{align*}
+\mu_Z &= \text{Mean of Z}\\
+\sigma_Z &= \text{Standard Deviation of Z}\\
+\Phi(x) &= \text{The CDF of the Normal (Gaussian) Distribution}
+\end{align*}
+From the above, it is clear we have defined $\beta$ as:
+
+\begin{equation}
+\beta = \frac{\mu_Z}{\sigma_z}\label{eq:protobeta}
+\end{equation}
+For the random variable $Z$, the mean and standard deviation are \cite{risk2}:
+\begin{align}
+\mu_Z &= \mu_{Sy} - \mu_\sigma\label{eq:muZ}\\
+\sigma_Z &= \sqrt{\sigma_{\sigma}^2 + \sigma_{Sy}^2}\label{eq:sigmaZ}
+\end{align}
+where
+   \begin{align*}
+	   \mu_{Sy} &= \text{Mean of} S_y\\
+	   \sigma_{Sy} &= \text{Std. Deviation of }S_y\\
+	   \mu_{\sigma} &= \text{Mean of }\sigma\\
+	   \sigma_{\sigma} &= \text{Std. Deviation of }\sigma
+   \end{align*}
+Substituting Equations \ref{eq:muZ} and \ref{eq:sigmaZ} into Equation \ref{eq:protobeta} yields:
    \begin{equation}
 	   \beta = \frac{\mu_{Sy} - \mu_\sigma}{\sqrt{\sigma_{\sigma}^2 + \sigma_{Sy}^2}}
 	   \label{eq:beta}
    \end{equation}
-Where
-   \begin{align*}
-	   \mu_{Sy} &= \text{Mean of the material yielding stress}\\
-	   \sigma_{Sy} &= \text{Std. Deviation of the yielding stress}\\
-	   \mu_{\sigma} &= \text{Mean of the Von Mises stress resulting from the applied load}\\
-	   \sigma_{\sigma} &= \text{Std. Deviation of the Von Mises stress resulting from the applied load}
-   \end{align*}
 
-The first two variables in the list above relate to properties of the material the object is made from, and are therefore given or assumed. The second two, however, relate to the von Mises stress and must be calculated.
+Equation \ref{eq:beta} represents the Reliability Index. This is the primary metric used to measure reliability in the Stochastic Loads method presented here. If we define reliability as \cite{risk2}: 
+
+\begin{equation}
+R = 1 - P_f
+\end{equation}
+The relation between $\beta$ and Reliability is clearly given from Equation \ref{eq:Pf}:
+\begin{align}
+R &= 1 - \left(1 - \Phi (\beta)\right)\nonumber\\
+&= \Phi(\beta)
+\end{align}
+For example, for a value of $\beta$ of 1.96, the reliability is calculated as 97.5\%. For a $\beta$ value of 2.58, reliability rises to 99.5\%. 
+
+In order to evaluate $\beta$ for the designs presented in this study, Equation \ref{eq:beta} will be used. To satisfy all the variables in this equation, the mean and standard deviation for both the material yield criterion and the applied Von Mises stress must be found. The properties related to properties of the material the object is made from are given assumed values that will be held constant across all designs. The stress-related properties, however, must be calculated.
 
 \subsubsection{Finding $\mu_\sigma$ and $\sigma_\sigma$}
 If $g(x_1, x_2, ... x_n) = Y$ denotes a function of multiple random variates and a single, dependent variable, let:\todo{cite} 
@@ -23,7 +76,7 @@ If $g(x_1, x_2, ... x_n) = Y$ denotes a function of multiple random variates and
 	   \sigma^2(Y) = \sum_{i=1}^{n}\left( \frac{\partial g}{\partial x_i} \sigma_{xi}  \right)^2 + 
 			 \frac{1}{4} \sum_{i=1}^{n}\left( \frac{\partial^2 g}{\partial x_i^2} \sigma_{xi}^2  \right)^2 \label{eq:sigma}
    \end{align}
-In our case, the term $Y$ will be the Von Mises Stress of our beam system. The tensor definition of the von Mises stress at a given location can be written as:
+In our case, the term $Y$ will be the Von Mises Stress of our beam system. The tensor definition of the Von Mises stress at a given location can be written as:
    \begin{equation}
       \sigma = \sqrt{\frac{3}{2} \cdot \left(\sigma_{dev}:\sigma_{dev} \right)}
 	\label{eq:basedef}
@@ -196,7 +249,7 @@ The deviators of these tensors are:
 \right]
 \end{align*}
 
-A monte carlo simulation was prepared using the properties above. A sample size of $1.5\times 10^6$ was used for the simulation. Then, code was created based on the equations \ref{eq:mu} and \ref{eq:sigma}, as well as \ref{eq:fd_ax} to \ref{eq:sd_ay}. This code was run with the same parameters, and results obtained. The results from these two analyses can be seen in Table \ref{tab:val_tensors} below. 
+A Monte Carlo simulation was prepared using the properties above. A sample size of $1.5\times 10^6$ was used for the simulation. Then, code was created based on the equations \ref{eq:mu} and \ref{eq:sigma}, as well as \ref{eq:fd_ax} to \ref{eq:sd_ay}. This code was run with the same parameters, and results obtained. The results from these two analyses can be seen in Table \ref{tab:val_tensors} below. 
 
 \begin{table}[!hbtp]
 \caption{Selected Validation Results for the Taylor Approximation for finding $\mu_\sigma$ and $\sigma_\sigma$}
