@@ -72,3 +72,28 @@ Figure \ref{fig:pfront_comp_agg} shows a plot of this comparison between the thr
 \caption{Comparison of the Aggregate LHS Pareto Plots}
 \label{fig:pfront_comp_agg}
 \end{figure}
+
+\subsection{Comparison of Run Metrics}
+Table \ref{tab:metrics} shows a comparison of all of the collected run metrics for the different runs presented here. Note the particular differences in per-generation times, as well as the number of calls to NASTRAN. 
+
+
+\begin{table}[!htbp]
+\caption{Comparison of Run Metrics for All Runs}
+\label{tab:metrics}
+\begin{center}
+\footnotesize
+\begin{tabular}{|l|l|l|l||l|l|l|}
+\hline
+                            & \multicolumn{3}{|c||}{Stochastic Loads}     & \multicolumn{3}{|c|}{Aggregated LHS}       \\
+\hline
+                            & Short Run & Intermediate Run & Long Run  & Short Run & Intermediate Run & Long Run  \\
+\hline
+Individuals Per Generation  & 30        & 80               & 80        & 20        & 80               & 80        \\
+Generations Computed        & 25        & 118              & 200       & 2         & 10               & 17        \\
+Time Per Generation (sec)   & 18.1      & 44.6             & 44.6      & 205       & 530              & 510       \\
+Calls to NASTRAN            & 1.50E+03  & 18.90E+03        & 32.00E+03 & 1.00E+03  & 20.00E+03        & 34.00E+03 \\
+Total Wall Clock Time (sec) & 453       & 5.26E+03         & 8.92E+03  & 411       & 5.30E+03         & 8.66E+03  \\
+\hline 
+\end{tabular}
+\end{center}
+\end{table}
